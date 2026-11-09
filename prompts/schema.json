@@ -1,0 +1,13 @@
+{"type":"object","additionalProperties":false,"required":["posts"],
+ "properties":{"posts":{"type":"array","items":{"type":"object","additionalProperties":false,"required":["id","labels"],
+  "properties":{"id":{"type":"string"},
+   "labels":{"type":"array","items":{"type":"object","additionalProperties":false,
+    "required":["ticker","stance","holding","action","size","defends","kind","evidence_quote"],
+    "properties":{"ticker":{"type":"string"},
+     "stance":{"type":"string","enum":["bull","bear","neutral"]},
+     "holding":{"type":"string","enum":["explicit","implied","sold","none"]},
+     "action":{"type":"string","enum":["buy","add","hold","trim","sell","none"]},
+     "size":{"type":"string","enum":["max","large","normal","small","none"]},
+     "defends":{"type":"boolean"},
+     "kind":{"type":"string","enum":["own","endorse","quote_only","irony","about_others"]},
+     "evidence_quote":{"type":"string"}}}}}}}}}

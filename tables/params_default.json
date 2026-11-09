@@ -1,0 +1,30 @@
+{
+ "window_days": 180,
+ "cap": 0.35,
+ "floor": 0.03,
+ "max_names": 15,
+ "cash_min": 0.025,
+ "cash_max": 0.3,
+ "level_score": {
+  "A": 1.0,
+  "B": 0.9,
+  "C": 0.6
+ },
+ "conf_weights": {
+  "level": 0.5,
+  "unanimity": 0.3,
+  "volume": 0.2
+ },
+ "volume_full_at": 6,
+ "c_min_days": 3,
+ "c_span_days": 30,
+ "b_min_implied": 2,
+ "half_life_days": 60,
+ "add_step": 0.25,
+ "trim_factor": 0.5,
+ "evidence_links": 3,
+ "include_crypto": true,
+ "include_private": false,
+ "fast_max_posts": 400,
+ "fast_max_escalate": 160
+}

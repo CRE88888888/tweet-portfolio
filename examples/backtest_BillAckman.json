@@ -1,0 +1,526 @@
+{
+ "asof": "2026-03-31T23:59:59+00:00",
+ "cash": 0.1103,
+ "concentration": {
+  "bottom5_share_of_equity": 0.6066,
+  "effective_n": 3.1111,
+  "hhi": 0.3214,
+  "top3_share_of_equity": 0.8502
+ },
+ "conviction_table": {
+  "factor_weights": {
+   "defends": 0.2,
+   "explicit_or_add": 0.2,
+   "level": 0.15,
+   "mentions_decayed": 0.3,
+   "size_points": 0.15
+  },
+  "filing_factor_weight": 0.5,
+  "k": 3.0,
+  "level_points": {
+   "A": 1.0,
+   "B": 0.75,
+   "C": 0.4,
+   "D": 0.0
+  },
+  "perturb": 0.2,
+  "size_points": {
+   "large": 2.0,
+   "max": 3.0,
+   "none": 0.0,
+   "normal": 0.5,
+   "small": -1.0
+  },
+  "trim_discount": 0.8
+ },
+ "coverage": {
+  "posts_by_type": {
+   "original": 129,
+   "quote": 402,
+   "reply": 29
+  },
+  "posts_in_window": 560,
+  "posts_missing_labels": 0,
+  "signals_counted": 193,
+  "signals_discarded_kind": 11,
+  "signals_low_confidence": 0,
+  "signals_total": 204,
+  "signals_unanimous_share": 0.8137,
+  "window_end": "2026-03-31T23:59:59+00:00",
+  "window_start": "2025-10-02T23:59:59+00:00"
+ },
+ "disclaimer": "本組合是從公開推文內容推斷，不是真實持倉。作者未公開、未提及的大部位可能才是多數；推文可能誇大、延遲或刻意誤導。權重為規則化推估，不代表實際比例。非投資建議。 / Inferred from public posts, NOT actual holdings. Large unseen positions may be the majority. Weights are rule-based estimates. Not investment advice.",
+ "filing": null,
+ "holdings": [
+  {
+   "asset_type": "us",
+   "confidence": 0.6748,
+   "evidence": [
+    {
+     "action": "hold",
+     "date": "2025-11-13T16:07:54.000Z",
+     "holding": "explicit",
+     "quote": "we have not sold our stake in the two companies and remain the largest common shareholder of both companies with more than 210 million shares.",
+     "url": "https://x.com/i/status/1989002291475562949",
+     "votes": [
+      "bull/explicit/hold",
+      "bull/explicit/hold",
+      "neutral/implied/none"
+     ]
+    },
+    {
+     "action": "none",
+     "date": "2026-03-22T03:56:11.000Z",
+     "holding": "implied",
+     "quote": "We, the shareholders of F2, seek no such thing.",
+     "url": "https://x.com/i/status/2035566181914939853",
+     "votes": [
+      "bull/implied/none",
+      "bull/implied/none",
+      "neutral/implied/none"
+     ]
+    },
+    {
+     "action": "none",
+     "date": "2026-03-30T11:29:20.000Z",
+     "holding": "none",
+     "quote": "Well said.",
+     "url": "https://x.com/i/status/2038579323733459412",
+     "votes": [
+      "bull/none/none",
+      "bull/none/none",
+      "bull/none/none"
+     ]
+    }
+   ],
+   "factors": {
+    "defends": 7,
+    "explicit_or_add": 4,
+    "last_bull_age_days": 1,
+    "mentions_decayed": 2.5898,
+    "size_points": 0.8764,
+    "size_words": {
+     "normal": 5
+    }
+   },
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 6,
+   "n_defends": 7,
+   "n_explicit": 4,
+   "range": [
+    0.35,
+    0.35
+   ],
+   "score": 0.9114,
+   "score_parts": {
+    "defends": 1.0,
+    "explicit_or_add": 1.0,
+    "level": 0.75,
+    "mentions_decayed": 0.8297,
+    "size_points": 1.0
+   },
+   "state": "持有",
+   "state_history": [
+    {
+     "frm": "未知",
+     "id": "1989002291475562949",
+     "to": "持有",
+     "ts": "2025-11-13T16:07:54.000Z"
+    }
+   ],
+   "ticker": "FMCC",
+   "weight": 0.35
+  },
+  {
+   "asset_type": "us",
+   "confidence": 0.7122,
+   "evidence": [
+    {
+     "action": "hold",
+     "date": "2025-11-13T16:07:54.000Z",
+     "holding": "explicit",
+     "quote": "we have not sold our stake in the two companies and remain the largest common shareholder of both companies with more than 210 million shares.",
+     "url": "https://x.com/i/status/1989002291475562949",
+     "votes": [
+      "bull/explicit/hold",
+      "bull/explicit/hold",
+      "neutral/implied/none"
+     ]
+    },
+    {
+     "action": "none",
+     "date": "2026-03-12T01:57:52.000Z",
+     "holding": "none",
+     "quote": "Correct.",
+     "url": "https://x.com/i/status/2031912526179340289",
+     "votes": [
+      "bull/none/none",
+      "bull/none/none",
+      "bull/none/none"
+     ]
+    },
+    {
+     "action": "none",
+     "date": "2026-03-22T03:56:11.000Z",
+     "holding": "implied",
+     "quote": "We, the shareholders of F2, seek no such thing.",
+     "url": "https://x.com/i/status/2035566181914939853",
+     "votes": [
+      "bull/implied/none",
+      "bull/implied/none",
+      "neutral/implied/none"
+     ]
+    }
+   ],
+   "factors": {
+    "defends": 7,
+    "explicit_or_add": 4,
+    "last_bull_age_days": 1,
+    "mentions_decayed": 3.6669,
+    "size_points": 0.8764,
+    "size_words": {
+     "normal": 5
+    }
+   },
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 8,
+   "n_defends": 7,
+   "n_explicit": 4,
+   "range": [
+    0.35,
+    0.35
+   ],
+   "score": 0.9625,
+   "score_parts": {
+    "defends": 1.0,
+    "explicit_or_add": 1.0,
+    "level": 0.75,
+    "mentions_decayed": 1.0,
+    "size_points": 1.0
+   },
+   "state": "持有",
+   "state_history": [
+    {
+     "frm": "未知",
+     "id": "1989002291475562949",
+     "to": "持有",
+     "ts": "2025-11-13T16:07:54.000Z"
+    }
+   ],
+   "ticker": "FNMA",
+   "weight": 0.35
+  },
+  {
+   "asset_type": "us",
+   "confidence": 0.7118,
+   "evidence": [
+    {
+     "action": "buy",
+     "date": "2025-12-31T19:37:54.000Z",
+     "holding": "explicit",
+     "quote": "We paid $100 for our stock in May. Super cheap",
+     "url": "https://x.com/i/status/2006449757733150909",
+     "votes": [
+      "bull/explicit/buy",
+      "bull/explicit/buy",
+      "bull/explicit/buy"
+     ]
+    }
+   ],
+   "factors": {
+    "defends": 1,
+    "explicit_or_add": 2,
+    "last_bull_age_days": 90,
+    "mentions_decayed": 0.3536,
+    "size_points": 0.1768,
+    "size_words": {
+     "normal": 1
+    }
+   },
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 1,
+   "n_defends": 1,
+   "n_explicit": 1,
+   "range": [
+    0.0514,
+    0.061
+   ],
+   "score": 0.4135,
+   "score_parts": {
+    "defends": 0.3333,
+    "explicit_or_add": 0.6826,
+    "level": 0.75,
+    "mentions_decayed": 0.1965,
+    "size_points": 0.2587
+   },
+   "state": "建倉",
+   "state_history": [
+    {
+     "frm": "未知",
+     "id": "2006449757733150909",
+     "to": "建倉",
+     "ts": "2025-12-31T19:37:54.000Z"
+    }
+   ],
+   "ticker": "HHH",
+   "weight": 0.0564
+  },
+  {
+   "asset_type": "us",
+   "confidence": 0.6426,
+   "evidence": [
+    {
+     "action": "none",
+     "date": "2026-01-06T11:59:19.000Z",
+     "holding": "explicit",
+     "quote": "As a Hilton customer and shareholder, I am comfortable that this situation was handled appropriately and in a timely fashion.",
+     "url": "https://x.com/i/status/2008508677766979938",
+     "votes": [
+      "bull/explicit/none",
+      "bull/explicit/none",
+      "neutral/none/none"
+     ]
+    }
+   ],
+   "factors": {
+    "defends": 2,
+    "explicit_or_add": 1,
+    "last_bull_age_days": 84,
+    "mentions_decayed": 0.3789,
+    "size_points": 0.1895,
+    "size_words": {
+     "normal": 1
+    }
+   },
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 1,
+   "n_defends": 2,
+   "n_explicit": 1,
+   "range": [
+    0.0514,
+    0.0572
+   ],
+   "score": 0.4082,
+   "score_parts": {
+    "defends": 0.5283,
+    "explicit_or_add": 0.4307,
+    "level": 0.75,
+    "mentions_decayed": 0.2086,
+    "size_points": 0.2757
+   },
+   "state": "持有",
+   "state_history": [
+    {
+     "frm": "未知",
+     "id": "2008508677766979938",
+     "to": "持有",
+     "ts": "2026-01-06T11:59:19.000Z"
+    }
+   ],
+   "ticker": "HLT",
+   "weight": 0.0543
+  },
+  {
+   "asset_type": "us",
+   "confidence": 0.5906,
+   "evidence": [
+    {
+     "action": "none",
+     "date": "2025-12-15T12:36:59.000Z",
+     "holding": "none",
+     "quote": "We agree on @Uber. A well articulated bull thesis on the key issues.",
+     "url": "https://x.com/i/status/2000545621288366177",
+     "votes": [
+      "bull/none/none",
+      "bull/none/none",
+      "bull/none/none"
+     ]
+    },
+    {
+     "action": "none",
+     "date": "2025-12-18T23:49:11.000Z",
+     "holding": "none",
+     "quote": "Yes",
+     "url": "https://x.com/i/status/2001801951537725633",
+     "votes": [
+      "bull/none/none",
+      "bull/none/none",
+      "bull/none/none"
+     ]
+    },
+    {
+     "action": "none",
+     "date": "2025-12-24T02:20:54.000Z",
+     "holding": "none",
+     "quote": "An excellent piece on @Uber",
+     "url": "https://x.com/i/status/2003652070466011501",
+     "votes": [
+      "bull/none/none",
+      "bull/none/none",
+      "bull/none/none"
+     ]
+    }
+   ],
+   "factors": {
+    "defends": 4,
+    "explicit_or_add": 0,
+    "last_bull_age_days": 45,
+    "mentions_decayed": 1.5188,
+    "size_points": 0.0
+   },
+   "level": "C",
+   "n_bear": 0,
+   "n_bull": 4,
+   "n_defends": 4,
+   "n_explicit": 0,
+   "range": [
+    0.0426,
+    0.0552
+   ],
+   "score": 0.3947,
+   "score_parts": {
+    "defends": 0.774,
+    "explicit_or_add": 0.0,
+    "level": 0.4,
+    "mentions_decayed": 0.5997,
+    "size_points": 0.0
+   },
+   "state": "未知",
+   "state_history": [],
+   "ticker": "UBER",
+   "weight": 0.0491
+  },
+  {
+   "asset_type": "us",
+   "confidence": 0.5717,
+   "evidence": [
+    {
+     "action": "none",
+     "date": "2025-12-20T21:42:59.000Z",
+     "holding": "none",
+     "quote": "It would thereby increase demand for Tesla shares.",
+     "url": "https://x.com/i/status/2002494967990923527",
+     "votes": [
+      "bull/none/none",
+      "bull/none/none",
+      "neutral/none/none"
+     ]
+    },
+    {
+     "action": "none",
+     "date": "2025-12-22T03:06:16.000Z",
+     "holding": "none",
+     "quote": "My bad on not buying the stock.",
+     "url": "https://x.com/i/status/2002938713379344513",
+     "votes": [
+      "bull/none/none",
+      "bull/none/none",
+      "neutral/none/none"
+     ]
+    },
+    {
+     "action": "none",
+     "date": "2025-12-23T21:42:21.000Z",
+     "holding": "none",
+     "quote": "My bad for missing Tesla.",
+     "url": "https://x.com/i/status/2003581973684715926",
+     "votes": [
+      "bull/none/none",
+      "bull/none/none",
+      "neutral/none/none"
+     ]
+    }
+   ],
+   "factors": {
+    "defends": 0,
+    "explicit_or_add": 0,
+    "last_bull_age_days": 98,
+    "mentions_decayed": 0.9523,
+    "size_points": 0.0
+   },
+   "level": "C",
+   "n_bear": 0,
+   "n_bull": 3,
+   "n_defends": 0,
+   "n_explicit": 0,
+   "range": [
+    0.03,
+    0.03
+   ],
+   "score": 0.1903,
+   "score_parts": {
+    "defends": 0.0,
+    "explicit_or_add": 0.0,
+    "level": 0.4,
+    "mentions_decayed": 0.4343,
+    "size_points": 0.0
+   },
+   "state": "未知",
+   "state_history": [],
+   "ticker": "TSLA",
+   "weight": 0.03
+  }
+ ],
+ "low_confidence_examples": [],
+ "mode": "posts_only",
+ "overall_confidence": 0.6898,
+ "params": {
+  "add_step": 0.25,
+  "b_min_implied": 2,
+  "c_min_days": 3,
+  "c_span_days": 30,
+  "cap": 0.35,
+  "cash_max": 0.3,
+  "cash_min": 0.025,
+  "conf_weights": {
+   "level": 0.5,
+   "unanimity": 0.3,
+   "volume": 0.2
+  },
+  "evidence_links": 3,
+  "floor": 0.03,
+  "half_life_days": 60,
+  "include_crypto": true,
+  "include_private": false,
+  "level_score": {
+   "A": 1.0,
+   "B": 0.9,
+   "C": 0.6
+  },
+  "max_names": 15,
+  "trim_factor": 0.5,
+  "volume_full_at": 6,
+  "window_days": 180
+ },
+ "subject": "@BillAckman",
+ "watchlist": [
+  {
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 1,
+   "reason": "private company (not investable)",
+   "state": "持有",
+   "ticker": "PRIVATE:BREMONT"
+  },
+  {
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 1,
+   "reason": "private company (not investable)",
+   "state": "建倉",
+   "ticker": "PRIVATE:OUTTAKE"
+  },
+  {
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 1,
+   "reason": "private company (not investable)",
+   "state": "未知",
+   "ticker": "PRIVATE:SPACEX"
+  }
+ ]
+}

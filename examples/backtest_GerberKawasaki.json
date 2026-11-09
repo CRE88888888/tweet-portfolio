@@ -1,0 +1,772 @@
+{
+ "asof": "2026-09-30T23:59:59+00:00",
+ "cash": 0.0818,
+ "concentration": {
+  "bottom5_share_of_equity": 0.1634,
+  "effective_n": 4.2205,
+  "hhi": 0.2369,
+  "top3_share_of_equity": 0.7824
+ },
+ "conviction_table": {
+  "factor_weights": {
+   "defends": 0.2,
+   "explicit_or_add": 0.2,
+   "level": 0.15,
+   "mentions_decayed": 0.3,
+   "size_points": 0.15
+  },
+  "filing_factor_weight": 0.5,
+  "k": 3.0,
+  "level_points": {
+   "A": 1.0,
+   "B": 0.75,
+   "C": 0.4,
+   "D": 0.0
+  },
+  "perturb": 0.2,
+  "size_points": {
+   "large": 2.0,
+   "max": 3.0,
+   "none": 0.0,
+   "normal": 0.5,
+   "small": -1.0
+  },
+  "trim_discount": 0.8
+ },
+ "coverage": {
+  "posts_by_type": {
+   "original": 480,
+   "quote": 225,
+   "reply": 37
+  },
+  "posts_in_window": 742,
+  "posts_missing_labels": 0,
+  "signals_counted": 479,
+  "signals_discarded_kind": 36,
+  "signals_low_confidence": 0,
+  "signals_total": 515,
+  "signals_unanimous_share": 0.6252,
+  "window_end": "2026-09-30T23:59:59+00:00",
+  "window_start": "2026-04-03T23:59:59+00:00"
+ },
+ "disclaimer": "本組合是從公開推文內容推斷，不是真實持倉。作者未公開、未提及的大部位可能才是多數；推文可能誇大、延遲或刻意誤導。權重為規則化推估，不代表實際比例。非投資建議。 / Inferred from public posts, NOT actual holdings. Large unseen positions may be the majority. Weights are rule-based estimates. Not investment advice.",
+ "filing": null,
+ "holdings": [
+  {
+   "asset_type": "us",
+   "confidence": 0.8409,
+   "evidence": [
+    {
+     "action": "trim",
+     "date": "2026-05-14T21:50:04.000Z",
+     "holding": "explicit",
+     "quote": "Today we had to sell a small amount of our positions in semis. Micron. Nvidia and Broadcom.",
+     "url": "https://x.com/i/status/2055042988930376161",
+     "votes": [
+      "bull/explicit/trim",
+      "bull/explicit/trim",
+      "bull/explicit/trim"
+     ]
+    },
+    {
+     "action": "none",
+     "date": "2026-05-21T00:54:05.000Z",
+     "holding": "none",
+     "quote": "Nvidia has an absurdly reasonable valuation.",
+     "url": "https://x.com/i/status/2057263626864795938",
+     "votes": [
+      "bull/none/none",
+      "bull/none/none",
+      "bull/none/none"
+     ]
+    },
+    {
+     "action": "none",
+     "date": "2026-09-17T01:43:43.000Z",
+     "holding": "explicit",
+     "quote": "This is why I own Nvidia.",
+     "url": "https://x.com/i/status/2100400274074738784",
+     "votes": [
+      "bull/explicit/none",
+      "bull/explicit/none",
+      "neutral/explicit/none"
+     ]
+    }
+   ],
+   "factors": {
+    "defends": 7,
+    "explicit_or_add": 4,
+    "last_bull_age_days": 13,
+    "mentions_decayed": 7.2588,
+    "size_points": 0.8279,
+    "size_words": {
+     "normal": 3
+    }
+   },
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 18,
+   "n_defends": 7,
+   "n_explicit": 3,
+   "range": [
+    0.3029,
+    0.35
+   ],
+   "score": 0.8379,
+   "score_parts": {
+    "defends": 0.9031,
+    "explicit_or_add": 1.0,
+    "level": 0.75,
+    "mentions_decayed": 0.8494,
+    "size_points": 0.5997
+   },
+   "state": "加碼",
+   "state_history": [
+    {
+     "frm": "未知",
+     "id": "2055042988930376161",
+     "to": "減碼",
+     "ts": "2026-05-14T21:50:04.000Z"
+    },
+    {
+     "frm": "減碼",
+     "id": "2089054292015772112",
+     "to": "加碼",
+     "ts": "2026-08-16T18:18:50.000Z"
+    }
+   ],
+   "ticker": "NVDA",
+   "weight": 0.35
+  },
+  {
+   "asset_type": "us",
+   "confidence": 0.7912,
+   "evidence": [
+    {
+     "action": "none",
+     "date": "2026-06-05T14:49:40.000Z",
+     "holding": "none",
+     "quote": "The apple google Nvidia nexus is the game changer to bring AI to the masses.",
+     "url": "https://x.com/i/status/2062909725084426517",
+     "votes": [
+      "bull/none/none",
+      "bull/none/none",
+      "bull/none/none"
+     ]
+    },
+    {
+     "action": "none",
+     "date": "2026-07-23T19:20:04.000Z",
+     "holding": "none",
+     "quote": "Capex is not bad. It's good.",
+     "url": "https://x.com/i/status/2080372391608459429",
+     "votes": [
+      "bull/none/none",
+      "bull/none/none",
+      "bull/none/none"
+     ]
+    },
+    {
+     "action": "none",
+     "date": "2026-08-07T19:11:58.000Z",
+     "holding": "explicit",
+     "quote": "google is my top holding and many of us were incorrect about search at that time. We adjust.",
+     "url": "https://x.com/i/status/2085806170154176915",
+     "votes": [
+      "bull/explicit/none",
+      "bull/explicit/none",
+      "neutral/explicit/none"
+     ]
+    }
+   ],
+   "factors": {
+    "defends": 2,
+    "explicit_or_add": 2,
+    "last_bull_age_days": 14,
+    "mentions_decayed": 6.6719,
+    "size_points": 1.7341,
+    "size_words": {
+     "max": 1,
+     "normal": 1
+    }
+   },
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 15,
+   "n_defends": 2,
+   "n_explicit": 2,
+   "range": [
+    0.2156,
+    0.2323
+   ],
+   "score": 0.7404,
+   "score_parts": {
+    "defends": 0.4771,
+    "explicit_or_add": 0.6826,
+    "level": 0.75,
+    "mentions_decayed": 0.8198,
+    "size_points": 1.0
+   },
+   "state": "持有",
+   "state_history": [
+    {
+     "frm": "未知",
+     "id": "2085806170154176915",
+     "to": "持有",
+     "ts": "2026-08-07T19:11:58.000Z"
+    }
+   ],
+   "ticker": "GOOGL",
+   "weight": 0.2191
+  },
+  {
+   "asset_type": "us",
+   "confidence": 0.7906,
+   "evidence": [
+    {
+     "action": "trim",
+     "date": "2026-05-14T21:50:04.000Z",
+     "holding": "explicit",
+     "quote": "Today we had to sell a small amount of our positions in semis. Micron. Nvidia and Broadcom.",
+     "url": "https://x.com/i/status/2055042988930376161",
+     "votes": [
+      "bull/explicit/trim",
+      "bull/explicit/trim",
+      "bull/explicit/trim"
+     ]
+    },
+    {
+     "action": "none",
+     "date": "2026-05-26T13:47:15.000Z",
+     "holding": "none",
+     "quote": "That gives me a $1500 target up from $1000. 15 times 27 eps for $MU",
+     "url": "https://x.com/i/status/2059270140290871374",
+     "votes": [
+      "bull/none/none",
+      "bull/none/none",
+      "bull/none/none"
+     ]
+    },
+    {
+     "action": "none",
+     "date": "2026-07-03T13:22:28.000Z",
+     "holding": "implied",
+     "quote": "Burry. What a joke going short my top position.",
+     "url": "https://x.com/i/status/2073034643864162608",
+     "votes": [
+      "bull/implied/none",
+      "bull/implied/none",
+      "bull/explicit/none"
+     ]
+    }
+   ],
+   "factors": {
+    "defends": 9,
+    "explicit_or_add": 1,
+    "last_bull_age_days": 0,
+    "mentions_decayed": 11.0077,
+    "size_points": 1.1733,
+    "size_words": {
+     "max": 1,
+     "normal": 1
+    }
+   },
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 27,
+   "n_defends": 9,
+   "n_explicit": 1,
+   "range": [
+    0.141,
+    0.1656
+   ],
+   "score": 0.6515,
+   "score_parts": {
+    "defends": 1.0,
+    "explicit_or_add": 0.4307,
+    "level": 0.75,
+    "mentions_decayed": 1.0,
+    "size_points": 0.7718
+   },
+   "state": "減碼",
+   "state_history": [
+    {
+     "frm": "未知",
+     "id": "2055042988930376161",
+     "to": "減碼",
+     "ts": "2026-05-14T21:50:04.000Z"
+    }
+   ],
+   "ticker": "MU",
+   "weight": 0.1493
+  },
+  {
+   "asset_type": "us",
+   "confidence": 0.6406,
+   "evidence": [
+    {
+     "action": "none",
+     "date": "2026-05-13T23:10:57.000Z",
+     "holding": "none",
+     "quote": "During dotcom Microsoft traded at a 55 PE for most of the 90s. Today it's 24.",
+     "url": "https://x.com/i/status/2054700956412227712",
+     "votes": [
+      "bull/none/none",
+      "bull/none/none",
+      "neutral/none/none"
+     ]
+    },
+    {
+     "action": "none",
+     "date": "2026-05-15T12:51:23.000Z",
+     "holding": "none",
+     "quote": "That a 24 PE Microsoft is cheap with open AI stake.",
+     "url": "https://x.com/i/status/2055269813153681639",
+     "votes": [
+      "bull/none/none",
+      "bull/none/none",
+      "bull/none/none"
+     ]
+    },
+    {
+     "action": "none",
+     "date": "2026-07-30T14:28:33.000Z",
+     "holding": "none",
+     "quote": "The AI trade re emerged after Microsoft's amazing performance. These very reasonable valuations won't last...",
+     "url": "https://x.com/i/status/2082835746625650923",
+     "votes": [
+      "bull/none/none",
+      "bull/none/none",
+      "bull/none/none"
+     ]
+    }
+   ],
+   "factors": {
+    "defends": 0,
+    "explicit_or_add": 2,
+    "last_bull_age_days": 62,
+    "mentions_decayed": 1.6258,
+    "size_points": 0.7855,
+    "size_words": {
+     "max": 1
+    }
+   },
+   "level": "B",
+   "n_bear": 1,
+   "n_bull": 5,
+   "n_defends": 0,
+   "n_explicit": 1,
+   "range": [
+    0.0393,
+    0.0689
+   ],
+   "score": 0.452,
+   "score_parts": {
+    "defends": 0.0,
+    "explicit_or_add": 0.6826,
+    "level": 0.75,
+    "mentions_decayed": 0.3884,
+    "size_points": 0.5764
+   },
+   "state": "建倉",
+   "state_history": [
+    {
+     "frm": "未知",
+     "id": "2063243741985648777",
+     "to": "建倉",
+     "ts": "2026-06-06T12:56:55.000Z"
+    }
+   ],
+   "ticker": "MSFT",
+   "weight": 0.0498
+  },
+  {
+   "asset_type": "us",
+   "confidence": 0.7911,
+   "evidence": [
+    {
+     "action": "trim",
+     "date": "2026-05-14T21:50:04.000Z",
+     "holding": "explicit",
+     "quote": "Today we had to sell a small amount of our positions in semis. Micron. Nvidia and Broadcom.",
+     "url": "https://x.com/i/status/2055042988930376161",
+     "votes": [
+      "bull/explicit/trim",
+      "bull/explicit/trim",
+      "bull/explicit/trim"
+     ]
+    },
+    {
+     "action": "none",
+     "date": "2026-06-04T12:44:13.000Z",
+     "holding": "none",
+     "quote": "Take advantage of post earnings sell offs... they both crushed their qtrs.",
+     "url": "https://x.com/i/status/2062515769028882616",
+     "votes": [
+      "bull/none/none",
+      "bull/none/none",
+      "bull/none/none"
+     ]
+    },
+    {
+     "action": "none",
+     "date": "2026-07-07T14:28:30.000Z",
+     "holding": "none",
+     "quote": "These are some of the least expensive stocks in the market. A gift for those who want to retire.  $mu $nvda $AVGO",
+     "url": "https://x.com/i/status/2074500810147569724",
+     "votes": [
+      "bull/none/none",
+      "bull/none/none",
+      "bull/none/none"
+     ]
+    }
+   ],
+   "factors": {
+    "defends": 3,
+    "explicit_or_add": 1,
+    "last_bull_age_days": 79,
+    "mentions_decayed": 1.2326,
+    "size_points": 0.1004,
+    "size_words": {
+     "normal": 1
+    }
+   },
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 4,
+   "n_defends": 3,
+   "n_explicit": 1,
+   "range": [
+    0.03,
+    0.0358
+   ],
+   "score": 0.3442,
+   "score_parts": {
+    "defends": 0.6021,
+    "explicit_or_add": 0.4307,
+    "level": 0.75,
+    "mentions_decayed": 0.3231,
+    "size_points": 0.0951
+   },
+   "state": "減碼",
+   "state_history": [
+    {
+     "frm": "未知",
+     "id": "2055042988930376161",
+     "to": "減碼",
+     "ts": "2026-05-14T21:50:04.000Z"
+    }
+   ],
+   "ticker": "AVGO",
+   "weight": 0.03
+  },
+  {
+   "asset_type": "us",
+   "confidence": 0.5172,
+   "evidence": [
+    {
+     "action": "none",
+     "date": "2026-05-04T13:03:55.000Z",
+     "holding": "none",
+     "quote": "Disney has a great slate of movies lined up this year.",
+     "url": "https://x.com/i/status/2051286702032044406",
+     "votes": [
+      "bull/none/none",
+      "bull/none/none",
+      "neutral/none/none"
+     ]
+    },
+    {
+     "action": "none",
+     "date": "2026-06-02T13:07:44.000Z",
+     "holding": "none",
+     "quote": "Disney is a very inexpensive stock for irreplaceable assets.",
+     "url": "https://x.com/i/status/2061796908700676146",
+     "votes": [
+      "bull/none/none",
+      "bull/none/none",
+      "bull/none/none"
+     ]
+    },
+    {
+     "action": "none",
+     "date": "2026-06-29T12:59:41.000Z",
+     "holding": "none",
+     "quote": "shareholders have suffered long enough and the assets are worth more apart than together.",
+     "url": "https://x.com/i/status/2071579359220310133",
+     "votes": [
+      "bull/none/none",
+      "bull/none/none",
+      "bull/none/none"
+     ]
+    }
+   ],
+   "factors": {
+    "defends": 0,
+    "explicit_or_add": 0,
+    "last_bull_age_days": 93,
+    "mentions_decayed": 1.5147,
+    "size_points": 0.0
+   },
+   "level": "C",
+   "n_bear": 2,
+   "n_bull": 6,
+   "n_defends": 0,
+   "n_explicit": 0,
+   "range": [
+    0.03,
+    0.03
+   ],
+   "score": 0.1713,
+   "score_parts": {
+    "defends": 0.0,
+    "explicit_or_add": 0.0,
+    "level": 0.4,
+    "mentions_decayed": 0.371,
+    "size_points": 0.0
+   },
+   "state": "未知",
+   "state_history": [],
+   "ticker": "DIS",
+   "weight": 0.03
+  },
+  {
+   "asset_type": "us",
+   "confidence": 0.4486,
+   "evidence": [
+    {
+     "action": "none",
+     "date": "2026-05-28T13:23:54.000Z",
+     "holding": "none",
+     "quote": "Is it finally the time for cannabis... glass house is an amazing company in this sector. $glasf",
+     "url": "https://x.com/i/status/2059989037839257686",
+     "votes": [
+      "bull/none/none",
+      "bull/none/none",
+      "bull/none/none"
+     ]
+    },
+    {
+     "action": "none",
+     "date": "2026-06-17T13:09:01.000Z",
+     "holding": "none",
+     "quote": "the upside to rescheduling is becoming more evident by the day. $GLASF",
+     "url": "https://x.com/i/status/2067233051529343357",
+     "votes": [
+      "bull/none/none",
+      "bull/none/none",
+      "neutral/none/none"
+     ]
+    },
+    {
+     "action": "none",
+     "date": "2026-06-25T12:57:52.000Z",
+     "holding": "none",
+     "quote": "Finally California cannabis makes it to the NYSE! Amazing. $GLAS.A.U.NE",
+     "url": "https://x.com/i/status/2070129346925432992",
+     "votes": [
+      "bull/none/none",
+      "bull/none/none",
+      "neutral/none/none"
+     ]
+    }
+   ],
+   "factors": {
+    "defends": 0,
+    "explicit_or_add": 0,
+    "last_bull_age_days": 97,
+    "mentions_decayed": 0.8594,
+    "size_points": 0.0
+   },
+   "level": "C",
+   "n_bear": 0,
+   "n_bull": 3,
+   "n_defends": 0,
+   "n_explicit": 0,
+   "range": [
+    0.03,
+    0.03
+   ],
+   "score": 0.1349,
+   "score_parts": {
+    "defends": 0.0,
+    "explicit_or_add": 0.0,
+    "level": 0.4,
+    "mentions_decayed": 0.2495,
+    "size_points": 0.0
+   },
+   "state": "未知",
+   "state_history": [],
+   "ticker": "GLASF",
+   "weight": 0.03
+  },
+  {
+   "asset_type": "us",
+   "confidence": 0.4965,
+   "evidence": [
+    {
+     "action": "none",
+     "date": "2026-04-17T15:22:41.000Z",
+     "holding": "none",
+     "quote": "These two things are actually a big deal for Netflix. A new app format and a gaming app… I like it.",
+     "url": "https://x.com/i/status/2045161030414991384",
+     "votes": [
+      "bull/none/none",
+      "bull/none/none",
+      "neutral/none/none"
+     ]
+    },
+    {
+     "action": "none",
+     "date": "2026-05-07T12:50:54.000Z",
+     "holding": "none",
+     "quote": "This will work well and make Netflix a few billion more per year.",
+     "url": "https://x.com/i/status/2052370588648473052",
+     "votes": [
+      "bull/none/none",
+      "bull/none/none",
+      "neutral/none/none"
+     ]
+    },
+    {
+     "action": "none",
+     "date": "2026-07-18T14:02:14.000Z",
+     "holding": "none",
+     "quote": "This is an extremely well managed company with the top brand in the industry.",
+     "url": "https://x.com/i/status/2078480467783983496",
+     "votes": [
+      "bull/none/none",
+      "bull/none/none",
+      "bull/none/none"
+     ]
+    }
+   ],
+   "factors": {
+    "defends": 1,
+    "explicit_or_add": 0,
+    "last_bull_age_days": 48,
+    "mentions_decayed": 1.8037,
+    "size_points": 0.0
+   },
+   "level": "C",
+   "n_bear": 1,
+   "n_bull": 5,
+   "n_defends": 1,
+   "n_explicit": 0,
+   "range": [
+    0.03,
+    0.03
+   ],
+   "score": 0.2446,
+   "score_parts": {
+    "defends": 0.301,
+    "explicit_or_add": 0.0,
+    "level": 0.4,
+    "mentions_decayed": 0.4148,
+    "size_points": 0.0
+   },
+   "state": "未知",
+   "state_history": [],
+   "ticker": "NFLX",
+   "weight": 0.03
+  },
+  {
+   "asset_type": "us",
+   "confidence": 0.4605,
+   "evidence": [
+    {
+     "action": "none",
+     "date": "2026-06-22T14:53:52.000Z",
+     "holding": "explicit",
+     "quote": "Glad we own an air conditioning company in Europe called Trane $TT",
+     "url": "https://x.com/i/status/2069071378079506738",
+     "votes": [
+      "bull/explicit/none",
+      "bull/explicit/none",
+      "bull/implied/none"
+     ]
+    }
+   ],
+   "factors": {
+    "defends": 0,
+    "explicit_or_add": 1,
+    "last_bull_age_days": 100,
+    "mentions_decayed": 0.315,
+    "size_points": 0.1575,
+    "size_words": {
+     "normal": 1
+    }
+   },
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 1,
+   "n_defends": 0,
+   "n_explicit": 1,
+   "range": [
+    0.03,
+    0.03
+   ],
+   "score": 0.2535,
+   "score_parts": {
+    "defends": 0.0,
+    "explicit_or_add": 0.4307,
+    "level": 0.75,
+    "mentions_decayed": 0.1102,
+    "size_points": 0.1454
+   },
+   "state": "持有",
+   "state_history": [
+    {
+     "frm": "未知",
+     "id": "2069071378079506738",
+     "to": "持有",
+     "ts": "2026-06-22T14:53:52.000Z"
+    }
+   ],
+   "ticker": "TT",
+   "weight": 0.03
+  }
+ ],
+ "low_confidence_examples": [],
+ "mode": "posts_only",
+ "overall_confidence": 0.7934,
+ "params": {
+  "add_step": 0.25,
+  "b_min_implied": 2,
+  "c_min_days": 3,
+  "c_span_days": 30,
+  "cap": 0.35,
+  "cash_max": 0.3,
+  "cash_min": 0.025,
+  "conf_weights": {
+   "level": 0.5,
+   "unanimity": 0.3,
+   "volume": 0.2
+  },
+  "evidence_links": 3,
+  "floor": 0.03,
+  "half_life_days": 60,
+  "include_crypto": true,
+  "include_private": false,
+  "level_score": {
+   "A": 1.0,
+   "B": 0.9,
+   "C": 0.6
+  },
+  "max_names": 15,
+  "trim_factor": 0.5,
+  "volume_full_at": 6,
+  "window_days": 180
+ },
+ "subject": "@GerberKawasaki",
+ "watchlist": [
+  {
+   "level": "B",
+   "n_bear": 1,
+   "n_bull": 3,
+   "reason": "private company (not investable)",
+   "state": "持有",
+   "ticker": "PRIVATE:SPACEX"
+  }
+ ]
+}

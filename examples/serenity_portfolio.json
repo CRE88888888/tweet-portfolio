@@ -1,0 +1,3437 @@
+{
+ "asof": "2026-11-09T15:00:00+00:00",
+ "cash": 0.0766,
+ "concentration": {
+  "bottom5_share_of_equity": 0.1707,
+  "effective_n": 8.2721,
+  "hhi": 0.1209,
+  "top3_share_of_equity": 0.4629
+ },
+ "conviction_table": {
+  "factor_weights": {
+   "defends": 0.2,
+   "explicit_or_add": 0.2,
+   "level": 0.15,
+   "mentions_decayed": 0.3,
+   "size_points": 0.15
+  },
+  "filing_factor_weight": 0.5,
+  "k": 3.0,
+  "level_points": {
+   "A": 1.0,
+   "B": 0.75,
+   "C": 0.4,
+   "D": 0.0
+  },
+  "perturb": 0.2,
+  "size_points": {
+   "large": 2.0,
+   "max": 3.0,
+   "none": 0.0,
+   "normal": 0.5,
+   "small": -1.0
+  },
+  "trim_discount": 0.8
+ },
+ "coverage": {
+  "fetch_mode": "originals+quotes full (cached archive, 2026); replies via ticker/position keyword search only",
+  "long_posts": "251 posts of 230-300 chars re-fetched by id (122 expanded to full text); posts >=900 chars already had note_tweet",
+  "notes": "latest post fetched: 2026-11-09 15:12 (Asia/Taipei)",
+  "posts_by_type": {
+   "original": 487,
+   "quote": 387,
+   "reply": 120
+  },
+  "posts_in_window": 994,
+  "posts_missing_labels": 0,
+  "reads_used_this_run": 4,
+  "reply_coverage": "keyword-only (earlier cached run estimated ~58% of all 2026 posts read; originals 100%)",
+  "signals_counted": 4007,
+  "signals_discarded_kind": 302,
+  "signals_low_confidence": 6,
+  "signals_total": 4315,
+  "signals_unanimous_share": 0.6818,
+  "window_end": "2026-11-09T15:00:00+00:00",
+  "window_start": "2026-05-13T15:00:00+00:00"
+ },
+ "disclaimer": "本組合是從公開推文內容推斷，不是真實持倉。作者未公開、未提及的大部位可能才是多數；推文可能誇大、延遲或刻意誤導。權重為規則化推估，不代表實際比例。非投資建議。 / Inferred from public posts, NOT actual holdings. Large unseen positions may be the majority. Weights are rule-based estimates. Not investment advice.",
+ "filing": null,
+ "holdings": [
+  {
+   "asset_type": "non_us",
+   "confidence": 0.8251,
+   "evidence": [
+    {
+     "action": "none",
+     "date": "2026-05-20T11:39:02.000Z",
+     "holding": "explicit",
+     "quote": "I didn't acquire positions just for Sivers to be bought out by $MRVL or $JBL.",
+     "url": "https://x.com/i/status/2057063548115902967",
+     "votes": [
+      "bull/explicit/hold",
+      "bull/explicit/none",
+      "bull/explicit/buy"
+     ]
+    },
+    {
+     "action": "buy",
+     "date": "2026-05-27T14:41:38.000Z",
+     "holding": "explicit",
+     "quote": "Feels like dejavu again… going long on the next CPO architectural shift like $SIVE or Foci? And getting the same comments.",
+     "url": "https://x.com/i/status/2059646212803051722",
+     "votes": [
+      "bull/explicit/buy",
+      "bull/explicit/none",
+      "bull/explicit/buy"
+     ]
+    },
+    {
+     "action": "none",
+     "date": "2026-05-28T12:53:24.000Z",
+     "holding": "explicit",
+     "quote": "every single one of my European longs thesis have been validated",
+     "url": "https://x.com/i/status/2059981363684802708",
+     "votes": [
+      "bull/explicit/none",
+      "bull/explicit/none",
+      "bull/explicit/none"
+     ]
+    }
+   ],
+   "factors": {
+    "defends": 74,
+    "explicit_or_add": 31,
+    "last_bull_age_days": 2,
+    "mentions_decayed": 54.8636,
+    "size_points": 5.6728,
+    "size_words": {
+     "large": 2,
+     "normal": 31
+    }
+   },
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 191,
+   "n_defends": 74,
+   "n_explicit": 29,
+   "range": [
+    0.2048,
+    0.3114
+   ],
+   "score": 0.9625,
+   "score_parts": {
+    "defends": 1.0,
+    "explicit_or_add": 1.0,
+    "level": 0.75,
+    "mentions_decayed": 1.0,
+    "size_points": 1.0
+   },
+   "state": "加碼",
+   "state_history": [
+    {
+     "frm": "未知",
+     "id": "2055401446397690311",
+     "to": "持有",
+     "ts": "2026-05-15T21:34:26.000Z"
+    },
+    {
+     "frm": "持有",
+     "id": "2056558267896311996",
+     "to": "加碼",
+     "ts": "2026-05-19T02:11:14.000Z"
+    }
+   ],
+   "ticker": "STO:SIVE",
+   "weight": 0.257
+  },
+  {
+   "asset_type": "us",
+   "confidence": 0.8304,
+   "evidence": [
+    {
+     "action": "none",
+     "date": "2026-05-13T15:26:02.000Z",
+     "holding": "explicit",
+     "quote": "Remains one of my top high conviction optical longs moving forward into 2027",
+     "url": "https://x.com/i/status/2054583956167877111",
+     "votes": [
+      "bull/explicit/hold",
+      "bull/explicit/none",
+      "bull/explicit/none"
+     ]
+    },
+    {
+     "action": "none",
+     "date": "2026-08-07T05:59:05.000Z",
+     "holding": "explicit",
+     "quote": "I'm extremely bullish on $AAOI, it's one of my top holdings?",
+     "url": "https://x.com/i/status/2085606635834388515",
+     "votes": [
+      "bull/explicit/hold",
+      "bull/explicit/none",
+      "bull/explicit/none"
+     ]
+    },
+    {
+     "action": "none",
+     "date": "2026-08-24T11:00:56.000Z",
+     "holding": "explicit",
+     "quote": "I'm still bullish on $AAOI and I have large positions",
+     "url": "https://x.com/i/status/2091843192639672553",
+     "votes": [
+      "bull/explicit/none",
+      "bull/explicit/none",
+      "bull/explicit/none"
+     ]
+    }
+   ],
+   "factors": {
+    "defends": 50,
+    "explicit_or_add": 23,
+    "last_bull_age_days": 2,
+    "mentions_decayed": 41.6893,
+    "size_points": 4.0433,
+    "size_words": {
+     "large": 2,
+     "max": 1,
+     "normal": 18,
+     "small": 1
+    }
+   },
+   "level": "B",
+   "n_bear": 2,
+   "n_bull": 109,
+   "n_defends": 50,
+   "n_explicit": 20,
+   "range": [
+    0.0982,
+    0.1049
+   ],
+   "score": 0.7087,
+   "score_parts": {
+    "defends": 0.9107,
+    "explicit_or_add": 0.917,
+    "level": 0.75,
+    "mentions_decayed": 0.9331,
+    "size_points": 0.8525
+   },
+   "state": "減碼",
+   "state_history": [
+    {
+     "frm": "未知",
+     "id": "2054583956167877111",
+     "to": "持有",
+     "ts": "2026-05-13T15:26:02.000Z"
+    },
+    {
+     "frm": "持有",
+     "id": "2061252644195504239",
+     "to": "加碼",
+     "ts": "2026-06-01T01:05:01.000Z"
+    },
+    {
+     "frm": "加碼",
+     "id": "2119043029369762209",
+     "to": "減碼",
+     "ts": "2026-11-07T12:23:22.000Z"
+    }
+   ],
+   "ticker": "AAOI",
+   "weight": 0.1026
+  },
+  {
+   "asset_type": "us",
+   "confidence": 0.8074,
+   "evidence": [
+    {
+     "action": "buy",
+     "date": "2026-05-17T23:39:17.000Z",
+     "holding": "explicit",
+     "quote": "Then went long on the quasi-monopoly in $AXTI. \n\nWhile everyone was doubting me.",
+     "url": "https://x.com/i/status/2056157639760126294",
+     "votes": [
+      "bull/explicit/buy",
+      "bull/explicit/buy",
+      "bull/explicit/buy"
+     ]
+    },
+    {
+     "action": "none",
+     "date": "2026-06-07T03:37:40.000Z",
+     "holding": "explicit",
+     "quote": "Everyone called it a joke when I bought at ~$12.",
+     "url": "https://x.com/i/status/2063465386960736396",
+     "votes": [
+      "bull/explicit/none",
+      "bull/explicit/none",
+      "bull/explicit/buy"
+     ]
+    },
+    {
+     "action": "none",
+     "date": "2026-06-15T02:02:59.000Z",
+     "holding": "explicit",
+     "quote": "My optical positions are very happy to hear this:\n\nFrom $AXTI (substrates), $IQE (epiwafers) to $AAOI (lasers) / $LITE / $SIVE",
+     "url": "https://x.com/i/status/2066340661633372452",
+     "votes": [
+      "bull/explicit/none",
+      "bull/explicit/none",
+      "bull/explicit/none"
+     ]
+    }
+   ],
+   "factors": {
+    "defends": 14,
+    "explicit_or_add": 8,
+    "last_bull_age_days": 4,
+    "mentions_decayed": 13.2751,
+    "size_points": 0.9882,
+    "size_words": {
+     "normal": 10
+    }
+   },
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 44,
+   "n_defends": 14,
+   "n_explicit": 7,
+   "range": [
+    0.0629,
+    0.0705
+   ],
+   "score": 0.6173,
+   "score_parts": {
+    "defends": 0.6272,
+    "explicit_or_add": 0.634,
+    "level": 0.75,
+    "mentions_decayed": 0.6608,
+    "size_points": 0.3621
+   },
+   "state": "加碼",
+   "state_history": [
+    {
+     "frm": "未知",
+     "id": "2055401446397690311",
+     "to": "持有",
+     "ts": "2026-05-15T21:34:26.000Z"
+    },
+    {
+     "frm": "持有",
+     "id": "2056157639760126294",
+     "to": "加碼",
+     "ts": "2026-05-17T23:39:17.000Z"
+    }
+   ],
+   "ticker": "AXTI",
+   "weight": 0.0678
+  },
+  {
+   "asset_type": "non_us",
+   "confidence": 0.707,
+   "evidence": [
+    {
+     "action": "none",
+     "date": "2026-05-26T01:11:30.000Z",
+     "holding": "explicit",
+     "quote": "5 of my favorite CPO exposure longs over in Taiwan, especially at current prices.",
+     "url": "https://x.com/i/status/2059079948980363774",
+     "votes": [
+      "bull/explicit/none",
+      "bull/explicit/none",
+      "bull/explicit/none"
+     ]
+    },
+    {
+     "action": "buy",
+     "date": "2026-05-27T14:41:38.000Z",
+     "holding": "explicit",
+     "quote": "Feels like dejavu again… going long on the next CPO architectural shift like $SIVE or Foci? And getting the same comments.",
+     "url": "https://x.com/i/status/2059646212803051722",
+     "votes": [
+      "bull/explicit/buy",
+      "bull/explicit/none",
+      "bull/explicit/buy"
+     ]
+    },
+    {
+     "action": "none",
+     "date": "2026-06-03T01:18:54.000Z",
+     "holding": "explicit",
+     "quote": "My CPO longs in Taiwan are finally starting to take off today.\n\nShunsin +10%\nFoci +10%",
+     "url": "https://x.com/i/status/2061980916323598838",
+     "votes": [
+      "bull/explicit/none",
+      "bull/explicit/none",
+      "bull/explicit/none"
+     ]
+    }
+   ],
+   "factors": {
+    "defends": 8,
+    "explicit_or_add": 19,
+    "last_bull_age_days": 69,
+    "mentions_decayed": 4.6051,
+    "size_points": 1.7333,
+    "size_words": {
+     "normal": 15
+    }
+   },
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 21,
+   "n_defends": 8,
+   "n_explicit": 13,
+   "range": [
+    0.0552,
+    0.0647
+   ],
+   "score": 0.5952,
+   "score_parts": {
+    "defends": 0.5089,
+    "explicit_or_add": 0.8644,
+    "level": 0.75,
+    "mentions_decayed": 0.4285,
+    "size_points": 0.5298
+   },
+   "state": "加碼",
+   "state_history": [
+    {
+     "frm": "未知",
+     "id": "2054737349075218567",
+     "to": "持有",
+     "ts": "2026-05-14T01:35:33.000Z"
+    },
+    {
+     "frm": "持有",
+     "id": "2056558267896311996",
+     "to": "加碼",
+     "ts": "2026-05-19T02:11:14.000Z"
+    }
+   ],
+   "ticker": "TPEX:3363",
+   "weight": 0.0608
+  },
+  {
+   "asset_type": "us",
+   "confidence": 0.8529,
+   "evidence": [
+    {
+     "action": "none",
+     "date": "2026-06-09T11:52:27.000Z",
+     "holding": "explicit",
+     "quote": "only have financial interest in NBIS/TSEM/AAOI above",
+     "url": "https://x.com/i/status/2064314680521507114",
+     "votes": [
+      "bull/explicit/none",
+      "bull/explicit/none",
+      "bull/none/none"
+     ]
+    },
+    {
+     "action": "buy",
+     "date": "2026-06-23T00:35:38.000Z",
+     "holding": "explicit",
+     "quote": "I had $IREN last year and sold it for $NBIS and others.",
+     "url": "https://x.com/i/status/2069217783746060764",
+     "votes": [
+      "bull/explicit/buy",
+      "bull/explicit/buy",
+      "bull/explicit/buy"
+     ]
+    },
+    {
+     "action": "buy",
+     "date": "2026-09-24T15:06:39.000Z",
+     "holding": "explicit",
+     "quote": "I made the decision months later to consolidate it all into Nebius...\n\nDespite the the hate from FinX back then.",
+     "url": "https://x.com/i/status/2103139052363133062",
+     "votes": [
+      "bull/explicit/buy",
+      "bull/explicit/buy",
+      "bull/none/none"
+     ]
+    }
+   ],
+   "factors": {
+    "defends": 19,
+    "explicit_or_add": 5,
+    "last_bull_age_days": 2,
+    "mentions_decayed": 14.1522,
+    "size_points": 0.6038,
+    "size_words": {
+     "normal": 4
+    }
+   },
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 41,
+   "n_defends": 19,
+   "n_explicit": 3,
+   "range": [
+    0.055,
+    0.0645
+   ],
+   "score": 0.5947,
+   "score_parts": {
+    "defends": 0.6939,
+    "explicit_or_add": 0.517,
+    "level": 0.75,
+    "mentions_decayed": 0.6757,
+    "size_points": 0.2489
+   },
+   "state": "加碼",
+   "state_history": [
+    {
+     "frm": "未知",
+     "id": "2064314680521507114",
+     "to": "持有",
+     "ts": "2026-06-09T11:52:27.000Z"
+    },
+    {
+     "frm": "持有",
+     "id": "2069217783746060764",
+     "to": "加碼",
+     "ts": "2026-06-23T00:35:38.000Z"
+    }
+   ],
+   "ticker": "NBIS",
+   "weight": 0.0606
+  },
+  {
+   "asset_type": "non_us",
+   "confidence": 0.77,
+   "evidence": [
+    {
+     "action": "buy",
+     "date": "2026-08-27T05:46:04.000Z",
+     "holding": "explicit",
+     "quote": "Which is why I started up positions in ESMT (1.9x P/E from July annualized) and Etron.",
+     "url": "https://x.com/i/status/2092851118233764178",
+     "votes": [
+      "bull/explicit/buy",
+      "bull/explicit/buy",
+      "neutral/explicit/buy"
+     ]
+    },
+    {
+     "action": "none",
+     "date": "2026-08-30T15:24:18.000Z",
+     "holding": "explicit",
+     "quote": "Anyway, just excited about this idea (*disclosure I have positions)",
+     "url": "https://x.com/i/status/2094083798204047577",
+     "votes": [
+      "bull/explicit/none",
+      "bull/explicit/none",
+      "bull/explicit/none"
+     ]
+    },
+    {
+     "action": "none",
+     "date": "2026-09-08T07:56:28.000Z",
+     "holding": "explicit",
+     "quote": "(which is very positive read through for ESMT given what Etron sells) *own ESMT/Etron",
+     "url": "https://x.com/i/status/2097232588796780856",
+     "votes": [
+      "bull/explicit/none",
+      "bull/explicit/none",
+      "bull/explicit/none"
+     ]
+    }
+   ],
+   "factors": {
+    "defends": 7,
+    "explicit_or_add": 5,
+    "last_bull_age_days": 4,
+    "mentions_decayed": 9.3083,
+    "size_points": 1.3524,
+    "size_words": {
+     "normal": 5
+    }
+   },
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 17,
+   "n_defends": 7,
+   "n_explicit": 4,
+   "range": [
+    0.0426,
+    0.0543
+   ],
+   "score": 0.5538,
+   "score_parts": {
+    "defends": 0.4816,
+    "explicit_or_add": 0.517,
+    "level": 0.75,
+    "mentions_decayed": 0.5799,
+    "size_points": 0.4507
+   },
+   "state": "建倉",
+   "state_history": [
+    {
+     "frm": "未知",
+     "id": "2092851118233764178",
+     "to": "建倉",
+     "ts": "2026-08-27T05:46:04.000Z"
+    }
+   ],
+   "ticker": "TPE:3006",
+   "weight": 0.049
+  },
+  {
+   "asset_type": "us",
+   "confidence": 0.7886,
+   "evidence": [
+    {
+     "action": "none",
+     "date": "2026-07-01T17:09:49.000Z",
+     "holding": "explicit",
+     "quote": "Just personal thoughts as a shareholder in $CCXI (NFA):",
+     "url": "https://x.com/i/status/2072367082248040621",
+     "votes": [
+      "bull/explicit/none",
+      "bull/explicit/none",
+      "bull/explicit/none"
+     ]
+    },
+    {
+     "action": "none",
+     "date": "2026-07-09T19:35:56.000Z",
+     "holding": "explicit",
+     "quote": "I'm am personally long on Agility through $CCXI targeting commercialization with Amazon and others.",
+     "url": "https://x.com/i/status/2075302956581449892",
+     "votes": [
+      "bull/explicit/none",
+      "bull/explicit/none",
+      "bull/explicit/none"
+     ]
+    },
+    {
+     "action": "buy",
+     "date": "2026-08-16T09:04:18.000Z",
+     "holding": "explicit",
+     "quote": "I also like really like $CCXI. I bought somewhere between .25-.75% of the company's float around the time it got announced.",
+     "url": "https://x.com/i/status/2088914739867115965",
+     "votes": [
+      "bull/explicit/buy",
+      "bull/explicit/buy",
+      "bull/explicit/buy"
+     ]
+    }
+   ],
+   "factors": {
+    "defends": 2,
+    "explicit_or_add": 11,
+    "last_bull_age_days": 5,
+    "mentions_decayed": 5.9579,
+    "size_points": 2.2131,
+    "size_words": {
+     "large": 1,
+     "normal": 9
+    }
+   },
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 17,
+   "n_defends": 2,
+   "n_explicit": 8,
+   "range": [
+    0.0398,
+    0.052
+   ],
+   "score": 0.5437,
+   "score_parts": {
+    "defends": 0.2545,
+    "explicit_or_add": 0.717,
+    "level": 0.75,
+    "mentions_decayed": 0.4822,
+    "size_points": 0.615
+   },
+   "state": "加碼",
+   "state_history": [
+    {
+     "frm": "未知",
+     "id": "2071995924172394695",
+     "to": "持有",
+     "ts": "2026-06-30T16:34:58.000Z"
+    },
+    {
+     "frm": "持有",
+     "id": "2088914739867115965",
+     "to": "加碼",
+     "ts": "2026-08-16T09:04:18.000Z"
+    }
+   ],
+   "ticker": "CCXI",
+   "weight": 0.0463
+  },
+  {
+   "asset_type": "non_us",
+   "confidence": 0.8109,
+   "evidence": [
+    {
+     "action": "none",
+     "date": "2026-05-28T12:53:24.000Z",
+     "holding": "explicit",
+     "quote": "every single one of my European longs thesis have been validated",
+     "url": "https://x.com/i/status/2059981363684802708",
+     "votes": [
+      "bull/explicit/none",
+      "bull/explicit/none",
+      "bull/explicit/none"
+     ]
+    },
+    {
+     "action": "none",
+     "date": "2026-06-15T14:56:05.000Z",
+     "holding": "explicit",
+     "quote": "these were all my core European longs:\n\n1. $SIVE\n2. $LPK\n3. $SOI\n4. $RPI \n5. $IQE\n6. $ALRIB\n7. $XFAB",
+     "url": "https://x.com/i/status/2066535221554733278",
+     "votes": [
+      "bull/explicit/none",
+      "bull/explicit/none",
+      "bull/explicit/none"
+     ]
+    },
+    {
+     "action": "none",
+     "date": "2026-06-17T13:18:06.000Z",
+     "holding": "explicit",
+     "quote": "One might think they’re a major beneficiary alongside IMEC, ligentec and others in the sovereign AI push?",
+     "url": "https://x.com/i/status/2067235336842097124",
+     "votes": [
+      "bull/explicit/none",
+      "bull/explicit/none",
+      "bull/explicit/none"
+     ]
+    }
+   ],
+   "factors": {
+    "defends": 11,
+    "explicit_or_add": 9,
+    "last_bull_age_days": 71,
+    "mentions_decayed": 4.9205,
+    "size_points": 0.6374,
+    "size_words": {
+     "normal": 7
+    }
+   },
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 26,
+   "n_defends": 11,
+   "n_explicit": 7,
+   "range": [
+    0.0369,
+    0.0494
+   ],
+   "score": 0.5321,
+   "score_parts": {
+    "defends": 0.5755,
+    "explicit_or_add": 0.6644,
+    "level": 0.75,
+    "mentions_decayed": 0.4421,
+    "size_points": 0.2598
+   },
+   "state": "加碼",
+   "state_history": [
+    {
+     "frm": "未知",
+     "id": "2059537337324085541",
+     "to": "建倉",
+     "ts": "2026-05-27T07:29:00.000Z"
+    },
+    {
+     "frm": "建倉",
+     "id": "2083274448845906083",
+     "to": "加碼",
+     "ts": "2026-07-31T19:31:48.000Z"
+    }
+   ],
+   "ticker": "EPA:XFAB",
+   "weight": 0.0434
+  },
+  {
+   "asset_type": "non_us",
+   "confidence": 0.8226,
+   "evidence": [
+    {
+     "action": "none",
+     "date": "2026-06-15T14:02:20.000Z",
+     "holding": "none",
+     "quote": "$MU / SK Hynix / Samsung potentially end up like a mini $NVDA if memory demand is structural.",
+     "url": "https://x.com/i/status/2066521694836330618",
+     "votes": [
+      "bull/none/none",
+      "bull/none/none",
+      "bull/none/none"
+     ]
+    },
+    {
+     "action": "none",
+     "date": "2026-07-07T08:54:13.000Z",
+     "holding": "none",
+     "quote": "> operating profits growing 1803% Y/Y  \n\nmarket: sells off Samsung -7%",
+     "url": "https://x.com/i/status/2074416685843612031",
+     "votes": [
+      "bull/none/none",
+      "bull/none/none",
+      "bull/none/none"
+     ]
+    },
+    {
+     "action": "hold",
+     "date": "2026-08-27T05:46:04.000Z",
+     "holding": "explicit",
+     "quote": "I trimmed down those positions aside from Samsung/SK Hynix longs",
+     "url": "https://x.com/i/status/2092851118233764178",
+     "votes": [
+      "bull/explicit/hold",
+      "bull/explicit/hold",
+      "bull/explicit/none"
+     ]
+    }
+   ],
+   "factors": {
+    "defends": 22,
+    "explicit_or_add": 1,
+    "last_bull_age_days": 1,
+    "mentions_decayed": 14.1665,
+    "size_points": 0.2127,
+    "size_words": {
+     "normal": 1
+    }
+   },
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 30,
+   "n_defends": 22,
+   "n_explicit": 1,
+   "range": [
+    0.033,
+    0.0458
+   ],
+   "score": 0.5158,
+   "score_parts": {
+    "defends": 0.7262,
+    "explicit_or_add": 0.2,
+    "level": 0.75,
+    "mentions_decayed": 0.6759,
+    "size_points": 0.1016
+   },
+   "state": "持有",
+   "state_history": [
+    {
+     "frm": "未知",
+     "id": "2092851118233764178",
+     "to": "持有",
+     "ts": "2026-08-27T05:46:04.000Z"
+    }
+   ],
+   "ticker": "KRX:005930",
+   "weight": 0.0395
+  },
+  {
+   "asset_type": "non_us",
+   "confidence": 0.8188,
+   "evidence": [
+    {
+     "action": "none",
+     "date": "2026-06-15T14:02:20.000Z",
+     "holding": "none",
+     "quote": "$MU / SK Hynix / Samsung potentially end up like a mini $NVDA if memory demand is structural.",
+     "url": "https://x.com/i/status/2066521694836330618",
+     "votes": [
+      "bull/none/none",
+      "bull/none/none",
+      "bull/none/none"
+     ]
+    },
+    {
+     "action": "none",
+     "date": "2026-06-16T13:00:15.000Z",
+     "holding": "none",
+     "quote": "Definitely don't see a bubble in upstream semiconductors from $LITE to Sk Hynix though",
+     "url": "https://x.com/i/status/2066868456457416871",
+     "votes": [
+      "bull/none/none",
+      "bull/none/none",
+      "bull/none/none"
+     ]
+    },
+    {
+     "action": "hold",
+     "date": "2026-08-27T05:46:04.000Z",
+     "holding": "explicit",
+     "quote": "I trimmed down those positions aside from Samsung/SK Hynix longs",
+     "url": "https://x.com/i/status/2092851118233764178",
+     "votes": [
+      "bull/explicit/hold",
+      "bull/explicit/hold",
+      "bull/explicit/none"
+     ]
+    }
+   ],
+   "factors": {
+    "defends": 18,
+    "explicit_or_add": 1,
+    "last_bull_age_days": 4,
+    "mentions_decayed": 15.1106,
+    "size_points": 0.2127,
+    "size_words": {
+     "normal": 1
+    }
+   },
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 31,
+   "n_defends": 18,
+   "n_explicit": 1,
+   "range": [
+    0.032,
+    0.0449
+   ],
+   "score": 0.5114,
+   "score_parts": {
+    "defends": 0.682,
+    "explicit_or_add": 0.2,
+    "level": 0.75,
+    "mentions_decayed": 0.6909,
+    "size_points": 0.1016
+   },
+   "state": "持有",
+   "state_history": [
+    {
+     "frm": "未知",
+     "id": "2092851118233764178",
+     "to": "持有",
+     "ts": "2026-08-27T05:46:04.000Z"
+    }
+   ],
+   "ticker": "KRX:000660",
+   "weight": 0.0386
+  },
+  {
+   "asset_type": "us",
+   "confidence": 0.8316,
+   "evidence": [
+    {
+     "action": "none",
+     "date": "2026-05-15T21:34:26.000Z",
+     "holding": "explicit",
+     "quote": "I've hit 23 different longs this year with 100-1000%+ YTD.\n\n1. $AXTI \n2. $AAOI \n3. $SIVE \n4. $LITE",
+     "url": "https://x.com/i/status/2055401446397690311",
+     "votes": [
+      "bull/explicit/none",
+      "bull/explicit/none",
+      "neutral/explicit/none"
+     ]
+    },
+    {
+     "action": "none",
+     "date": "2026-05-23T16:55:31.000Z",
+     "holding": "none",
+     "quote": "4. $LITE",
+     "url": "https://x.com/i/status/2058230354063102028",
+     "votes": [
+      "bull/none/none",
+      "bull/none/none",
+      "bull/none/none"
+     ]
+    },
+    {
+     "action": "none",
+     "date": "2026-06-15T02:02:59.000Z",
+     "holding": "explicit",
+     "quote": "My optical positions are very happy to hear this:\n\nFrom $AXTI (substrates), $IQE (epiwafers) to $AAOI (lasers) / $LITE / $SIVE, and others.",
+     "url": "https://x.com/i/status/2066340661633372452",
+     "votes": [
+      "bull/explicit/none",
+      "bull/explicit/none",
+      "bull/explicit/none"
+     ]
+    }
+   ],
+   "factors": {
+    "defends": 31,
+    "explicit_or_add": 3,
+    "last_bull_age_days": 1,
+    "mentions_decayed": 34.0725,
+    "size_points": 0.2232,
+    "size_words": {
+     "normal": 3
+    }
+   },
+   "level": "B",
+   "n_bear": 1,
+   "n_bull": 86,
+   "n_defends": 31,
+   "n_explicit": 3,
+   "range": [
+    0.0311,
+    0.0441
+   ],
+   "score": 0.5074,
+   "score_parts": {
+    "defends": 0.8027,
+    "explicit_or_add": 0.4,
+    "level": 0.75,
+    "mentions_decayed": 0.8843,
+    "size_points": 0.1061
+   },
+   "state": "減碼",
+   "state_history": [
+    {
+     "frm": "未知",
+     "id": "2055401446397690311",
+     "to": "持有",
+     "ts": "2026-05-15T21:34:26.000Z"
+    },
+    {
+     "frm": "持有",
+     "id": "2056558267896311996",
+     "to": "減碼",
+     "ts": "2026-05-19T02:11:14.000Z"
+    }
+   ],
+   "ticker": "LITE",
+   "weight": 0.0377
+  },
+  {
+   "asset_type": "us",
+   "confidence": 0.7344,
+   "evidence": [
+    {
+     "action": "none",
+     "date": "2026-05-15T21:34:26.000Z",
+     "holding": "explicit",
+     "quote": "I've hit 23 different longs this year with 100-1000%+ YTD.\n\n1. $AXTI \n2. $AAOI \n3. $SIVE \n4. $LITE \n5. $IQE\n6. $AEHR\n7. $CRCL\n8. $EWY",
+     "url": "https://x.com/i/status/2055401446397690311",
+     "votes": [
+      "bull/explicit/none",
+      "bull/explicit/none",
+      "neutral/explicit/none"
+     ]
+    },
+    {
+     "action": "none",
+     "date": "2026-08-15T05:59:26.000Z",
+     "holding": "explicit",
+     "quote": "$EWY longs were up about 450% at the peak, those made up the largest portion of my earlier realized gains, but I still have a sizeable position in that.",
+     "url": "https://x.com/i/status/2088505825912631604",
+     "votes": [
+      "bull/explicit/hold",
+      "bull/explicit/none",
+      "bull/explicit/none"
+     ]
+    },
+    {
+     "action": "hold",
+     "date": "2026-09-21T05:27:38.000Z",
+     "holding": "explicit",
+     "quote": "I'm still long memory (eg. $EWY / $DRAM )",
+     "url": "https://x.com/i/status/2101906175046635887",
+     "votes": [
+      "bull/explicit/hold",
+      "bull/explicit/hold",
+      "bull/explicit/hold"
+     ]
+    }
+   ],
+   "factors": {
+    "defends": 5,
+    "explicit_or_add": 8,
+    "last_bull_age_days": 48,
+    "mentions_decayed": 5.0092,
+    "size_points": 1.7089,
+    "size_words": {
+     "large": 1,
+     "normal": 7
+    }
+   },
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 18,
+   "n_defends": 5,
+   "n_explicit": 8,
+   "range": [
+    0.03,
+    0.03
+   ],
+   "score": 0.4278,
+   "score_parts": {
+    "defends": 0.415,
+    "explicit_or_add": 0.634,
+    "level": 0.75,
+    "mentions_decayed": 0.4458,
+    "size_points": 0.525
+   },
+   "state": "減碼",
+   "state_history": [
+    {
+     "frm": "未知",
+     "id": "2055401446397690311",
+     "to": "持有",
+     "ts": "2026-05-15T21:34:26.000Z"
+    },
+    {
+     "frm": "持有",
+     "id": "2092851118233764178",
+     "to": "減碼",
+     "ts": "2026-08-27T05:46:04.000Z"
+    }
+   ],
+   "ticker": "EWY",
+   "weight": 0.03
+  },
+  {
+   "asset_type": "us",
+   "confidence": 0.8643,
+   "evidence": [
+    {
+     "action": "none",
+     "date": "2026-07-17T17:51:55.000Z",
+     "holding": "none",
+     "quote": "just goes to validate Neocloud business models like $NBIS, $IREN, and co if hyperscalers are copying their homework.",
+     "url": "https://x.com/i/status/2078175882620059719",
+     "votes": [
+      "bull/none/none",
+      "bull/none/none",
+      "bull/none/none"
+     ]
+    },
+    {
+     "action": "none",
+     "date": "2026-07-29T23:13:55.000Z",
+     "holding": "none",
+     "quote": "compute scarcity, positive for neoclouds like $IREN / $NBIS",
+     "url": "https://x.com/i/status/2082605568699871284",
+     "votes": [
+      "bull/none/none",
+      "bull/none/none",
+      "bull/none/none"
+     ]
+    },
+    {
+     "action": "none",
+     "date": "2026-08-11T21:09:43.000Z",
+     "holding": "none",
+     "quote": "Compute demand read through for Neoclouds is enormous (For Nebius, Iren and others)",
+     "url": "https://x.com/i/status/2087285356999958663",
+     "votes": [
+      "bull/none/none",
+      "bull/none/none",
+      "bull/none/none"
+     ]
+    }
+   ],
+   "factors": {
+    "defends": 9,
+    "explicit_or_add": 3,
+    "last_bull_age_days": 1,
+    "mentions_decayed": 6.8912,
+    "size_points": 0.0,
+    "size_words": {
+     "small": 2
+    }
+   },
+   "level": "B",
+   "n_bear": 9,
+   "n_bull": 12,
+   "n_defends": 9,
+   "n_explicit": 2,
+   "range": [
+    0.03,
+    0.0336
+   ],
+   "score": 0.4532,
+   "score_parts": {
+    "defends": 0.5333,
+    "explicit_or_add": 0.4,
+    "level": 0.75,
+    "mentions_decayed": 0.5135,
+    "size_points": 0.0
+   },
+   "state": "建倉",
+   "state_history": [
+    {
+     "frm": "未知",
+     "id": "2069217783746060764",
+     "to": "清倉",
+     "ts": "2026-06-23T00:35:38.000Z"
+    },
+    {
+     "frm": "清倉",
+     "id": "2082557648298516918",
+     "to": "建倉",
+     "ts": "2026-07-29T20:03:30.000Z"
+    }
+   ],
+   "ticker": "IREN",
+   "weight": 0.03
+  },
+  {
+   "asset_type": "us",
+   "confidence": 0.7897,
+   "evidence": [
+    {
+     "action": "none",
+     "date": "2026-05-23T16:55:31.000Z",
+     "holding": "none",
+     "quote": "25. $MU",
+     "url": "https://x.com/i/status/2058230354063102028",
+     "votes": [
+      "bull/none/none",
+      "bull/none/none",
+      "bull/none/none"
+     ]
+    },
+    {
+     "action": "none",
+     "date": "2026-06-25T16:55:54.000Z",
+     "holding": "implied",
+     "quote": "Even $MU and $SNDK ridiculous performance today couldn't save my port.",
+     "url": "https://x.com/i/status/2070189253573890167",
+     "votes": [
+      "bull/implied/none",
+      "bull/implied/none",
+      "neutral/none/none"
+     ]
+    },
+    {
+     "action": "trim",
+     "date": "2026-08-27T05:46:04.000Z",
+     "holding": "explicit",
+     "quote": "I trimmed down those positions aside from Samsung/SK Hynix longs",
+     "url": "https://x.com/i/status/2092851118233764178",
+     "votes": [
+      "bull/explicit/trim",
+      "bull/explicit/trim",
+      "bull/explicit/trim"
+     ]
+    }
+   ],
+   "factors": {
+    "defends": 29,
+    "explicit_or_add": 1,
+    "last_bull_age_days": 1,
+    "mentions_decayed": 21.7423,
+    "size_points": 0.3166,
+    "size_words": {
+     "normal": 2
+    }
+   },
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 53,
+   "n_defends": 29,
+   "n_explicit": 1,
+   "range": [
+    0.03,
+    0.0333
+   ],
+   "score": 0.4518,
+   "score_parts": {
+    "defends": 0.7878,
+    "explicit_or_add": 0.2,
+    "level": 0.75,
+    "mentions_decayed": 0.7766,
+    "size_points": 0.1449
+   },
+   "state": "減碼",
+   "state_history": [
+    {
+     "frm": "未知",
+     "id": "2070189253573890167",
+     "to": "持有",
+     "ts": "2026-06-25T16:55:54.000Z"
+    },
+    {
+     "frm": "持有",
+     "id": "2092851118233764178",
+     "to": "減碼",
+     "ts": "2026-08-27T05:46:04.000Z"
+    }
+   ],
+   "ticker": "MU",
+   "weight": 0.03
+  },
+  {
+   "asset_type": "us",
+   "confidence": 0.8814,
+   "evidence": [
+    {
+     "action": "buy",
+     "date": "2026-08-07T07:26:37.000Z",
+     "holding": "explicit",
+     "quote": "I actually took tiny positions in POET again after reading this news",
+     "url": "https://x.com/i/status/2085628664528662818",
+     "votes": [
+      "bull/explicit/buy",
+      "bull/explicit/buy",
+      "bull/explicit/buy"
+     ]
+    },
+    {
+     "action": "buy",
+     "date": "2026-08-13T10:16:48.000Z",
+     "holding": "explicit",
+     "quote": "Okay here's my take on $POET, since apparently people are celebrating on the subreddit that I took small positions.",
+     "url": "https://x.com/i/status/2087845820020457894",
+     "votes": [
+      "bull/explicit/buy",
+      "bull/explicit/buy",
+      "bull/explicit/buy"
+     ]
+    },
+    {
+     "action": "buy",
+     "date": "2026-08-13T10:17:49.000Z",
+     "holding": "explicit",
+     "quote": "my take on $POET, since apparently people are celebrating on the subreddit that I took small positions.",
+     "url": "https://x.com/i/status/2087846074027295020",
+     "votes": [
+      "bull/explicit/buy",
+      "bull/explicit/buy",
+      "bull/explicit/buy"
+     ]
+    }
+   ],
+   "factors": {
+    "defends": 5,
+    "explicit_or_add": 6,
+    "last_bull_age_days": 1,
+    "mentions_decayed": 5.8972,
+    "size_points": 0.0,
+    "size_words": {
+     "small": 3
+    }
+   },
+   "level": "B",
+   "n_bear": 3,
+   "n_bull": 12,
+   "n_defends": 5,
+   "n_explicit": 3,
+   "range": [
+    0.03,
+    0.0333
+   ],
+   "score": 0.4518,
+   "score_parts": {
+    "defends": 0.415,
+    "explicit_or_add": 0.5615,
+    "level": 0.75,
+    "mentions_decayed": 0.48,
+    "size_points": 0.0
+   },
+   "state": "加碼",
+   "state_history": [
+    {
+     "frm": "未知",
+     "id": "2085628664528662818",
+     "to": "建倉",
+     "ts": "2026-08-07T07:26:37.000Z"
+    },
+    {
+     "frm": "建倉",
+     "id": "2087845820020457894",
+     "to": "加碼",
+     "ts": "2026-08-13T10:16:48.000Z"
+    }
+   ],
+   "ticker": "POET",
+   "weight": 0.03
+  }
+ ],
+ "low_confidence_examples": [
+  {
+   "text": "Well $VPG ended up tripling since my thesis post.\n\nI got the ASP wrong in my original thesis, was $150 mass production rather than ~$750 midpoint quoted by mana",
+   "ticker": "VPG",
+   "url": "https://x.com/i/status/2059280575203328398",
+   "votes": [
+    "bull/implied/trim",
+    "bull/explicit/trim",
+    "neutral/none/trim"
+   ]
+  },
+  {
+   "text": "Okay here's my take on $POET, since apparently people are celebrating on the subreddit that I took small positions. \n\n- I have 0 idea. ZERO. How they convinced ",
+   "ticker": "AAOI",
+   "url": "https://x.com/i/status/2087846074027295020",
+   "votes": [
+    "bull/implied/none",
+    "bull/none/none",
+    "bull/explicit/none"
+   ]
+  },
+  {
+   "text": "Everyone’s a long term investor for 2027, 2028, or 2029 onward\n\nUntil their portfolio experiences volatility months in. I still think:\n\n- $RKLB could end up the",
+   "ticker": "AXTI",
+   "url": "https://x.com/i/status/2118605467459199016",
+   "votes": [
+    "bull/explicit/add",
+    "bull/implied/hold",
+    "bull/none/none"
+   ]
+  },
+  {
+   "text": "Everyone’s a long term investor for 2027, 2028, or 2029 onward\n\nUntil their portfolio experiences volatility months in. I still think:\n\n- $RKLB could end up the",
+   "ticker": "NBIS",
+   "url": "https://x.com/i/status/2118605467459199016",
+   "votes": [
+    "bull/explicit/add",
+    "bull/implied/hold",
+    "bull/none/none"
+   ]
+  },
+  {
+   "text": "Everyone’s a long term investor for 2027, 2028, or 2029 onward\n\nUntil their portfolio experiences volatility months in. I still think:\n\n- $RKLB could end up the",
+   "ticker": "RKLB",
+   "url": "https://x.com/i/status/2118605467459199016",
+   "votes": [
+    "bull/explicit/add",
+    "bull/implied/hold",
+    "bull/none/none"
+   ]
+  },
+  {
+   "text": "Everyone’s a long term investor for 2027, 2028, or 2029 onward\n\nUntil their portfolio experiences volatility months in. I still think:\n\n- $RKLB could end up the",
+   "ticker": "STO:SIVE",
+   "url": "https://x.com/i/status/2118605467459199016",
+   "votes": [
+    "bull/explicit/add",
+    "bull/implied/hold",
+    "bull/none/none"
+   ]
+  }
+ ],
+ "mode": "posts_only",
+ "overall_confidence": 0.8122,
+ "params": {
+  "add_step": 0.25,
+  "b_min_implied": 2,
+  "c_min_days": 3,
+  "c_span_days": 30,
+  "cap": 0.35,
+  "cash_max": 0.3,
+  "cash_min": 0.025,
+  "conf_weights": {
+   "level": 0.5,
+   "unanimity": 0.3,
+   "volume": 0.2
+  },
+  "evidence_links": 3,
+  "floor": 0.03,
+  "half_life_days": 60,
+  "include_crypto": true,
+  "include_private": false,
+  "level_score": {
+   "A": 1.0,
+   "B": 0.9,
+   "C": 0.6
+  },
+  "max_names": 15,
+  "trim_factor": 0.5,
+  "volume_full_at": 6,
+  "window_days": 180
+ },
+ "subject": "@aleabitoreddit",
+ "trade_log": [
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.65,
+   "funded": null,
+   "level": "B",
+   "source_text": "$AAOI is now up ~6-7x at $200+.\n\nFeels like nobody else was long last year aside from me and like two other people on X?\n\nRemains one of my top high conviction optical longs moving forward into 2027 due to massive revenue ramp + Made in America supply chains. https://t.co/HD0724F",
+   "source_url": "https://x.com/i/status/2054583956167877111",
+   "state": "持有",
+   "ticker": "AAOI",
+   "ts": "2026-05-13T15:26:02.000Z",
+   "votes": [
+    "bull/explicit/hold",
+    "bull/explicit/none",
+    "bull/explicit/none"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.35
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.3,
+   "funded": null,
+   "level": "B",
+   "source_text": "Honestly I’m expecting FOCI (3363) to blow away projections over next two years.\n\nIt’s a pretty high conviction position for me medium term at this level. \n\nSince they’re expected to be the leading supplier to $NVDA and $TSM and get frequently cited as a bottleneck for that $91B+",
+   "source_url": "https://x.com/i/status/2054737349075218567",
+   "state": "持有",
+   "ticker": "TPEX:3363",
+   "ts": "2026-05-14T01:35:33.000Z",
+   "votes": [
+    "bull/explicit/none",
+    "bull/implied/none",
+    "bull/explicit/none"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.35
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.0981,
+   "funded": null,
+   "level": "C",
+   "source_text": "Just to add to the very positive $SIVE news amid MSCI likely tens of millions of inflow in 2 weeks:\n\n$AMZN has a new private placement with AlChip. \n\nProbably implying design wins with future Trainium.\n\nIf you don’t remember… AlChip was Ayar’s lead customer. And $SIVE is the http",
+   "source_url": "https://x.com/i/status/2055182601158074769",
+   "state": "未知",
+   "ticker": "STO:SIVE",
+   "ts": "2026-05-15T07:04:50.000Z",
+   "votes": [
+    "bull/none/none",
+    "bull/none/none",
+    "bull/none/none"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.2019
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.0551,
+   "funded": null,
+   "level": "B",
+   "source_text": "Leopold Aschenbrenner is a legend, but I'm not quite sure he can beat 3152.77% YTD in the Serenity Awareness fund. \n\nThat being said, I've hit 23 different longs this year with 100-1000%+ YTD.\n\n1. $AXTI \n2. $AAOI \n3. $SIVE \n4. $LITE \n5. $IQE\n6. $AEHR\n7. $CRCL\n8. $EWY\n9. Unimicron",
+   "source_url": "https://x.com/i/status/2055401446397690311",
+   "state": "持有",
+   "ticker": "AEHR",
+   "ts": "2026-05-15T21:34:26.000Z",
+   "votes": [
+    "bull/explicit/none",
+    "bull/explicit/none",
+    "neutral/explicit/none"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.043
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.025,
+   "funded": {
+    "from_cash": 0.0301,
+    "pro_rata_trim_of_others": 0.0531
+   },
+   "level": "B",
+   "source_text": "Leopold Aschenbrenner is a legend, but I'm not quite sure he can beat 3152.77% YTD in the Serenity Awareness fund. \n\nThat being said, I've hit 23 different longs this year with 100-1000%+ YTD.\n\n1. $AXTI \n2. $AAOI \n3. $SIVE \n4. $LITE \n5. $IQE\n6. $AEHR\n7. $CRCL\n8. $EWY\n9. Unimicron",
+   "source_url": "https://x.com/i/status/2055401446397690311",
+   "state": "持有",
+   "ticker": "AXTI",
+   "ts": "2026-05-15T21:34:26.000Z",
+   "votes": [
+    "bull/explicit/none",
+    "bull/explicit/none",
+    "neutral/explicit/none"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.0833
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.025,
+   "funded": {
+    "from_cash": 0.0,
+    "pro_rata_trim_of_others": 0.043
+   },
+   "level": "B",
+   "source_text": "Leopold Aschenbrenner is a legend, but I'm not quite sure he can beat 3152.77% YTD in the Serenity Awareness fund. \n\nThat being said, I've hit 23 different longs this year with 100-1000%+ YTD.\n\n1. $AXTI \n2. $AAOI \n3. $SIVE \n4. $LITE \n5. $IQE\n6. $AEHR\n7. $CRCL\n8. $EWY\n9. Unimicron",
+   "source_url": "https://x.com/i/status/2055401446397690311",
+   "state": "持有",
+   "ticker": "CRCL",
+   "ts": "2026-05-15T21:34:26.000Z",
+   "votes": [
+    "bull/explicit/none",
+    "bull/explicit/none",
+    "neutral/explicit/none"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.043
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.025,
+   "funded": {
+    "from_cash": 0.0,
+    "pro_rata_trim_of_others": 0.043
+   },
+   "level": "B",
+   "source_text": "Leopold Aschenbrenner is a legend, but I'm not quite sure he can beat 3152.77% YTD in the Serenity Awareness fund. \n\nThat being said, I've hit 23 different longs this year with 100-1000%+ YTD.\n\n1. $AXTI \n2. $AAOI \n3. $SIVE \n4. $LITE \n5. $IQE\n6. $AEHR\n7. $CRCL\n8. $EWY\n9. Unimicron",
+   "source_url": "https://x.com/i/status/2055401446397690311",
+   "state": "持有",
+   "ticker": "EWY",
+   "ts": "2026-05-15T21:34:26.000Z",
+   "votes": [
+    "bull/explicit/none",
+    "bull/explicit/none",
+    "neutral/explicit/none"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.043
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.025,
+   "funded": {
+    "from_cash": 0.0,
+    "pro_rata_trim_of_others": 0.043
+   },
+   "level": "B",
+   "source_text": "Leopold Aschenbrenner is a legend, but I'm not quite sure he can beat 3152.77% YTD in the Serenity Awareness fund. \n\nThat being said, I've hit 23 different longs this year with 100-1000%+ YTD.\n\n1. $AXTI \n2. $AAOI \n3. $SIVE \n4. $LITE \n5. $IQE\n6. $AEHR\n7. $CRCL\n8. $EWY\n9. Unimicron",
+   "source_url": "https://x.com/i/status/2055401446397690311",
+   "state": "持有",
+   "ticker": "LITE",
+   "ts": "2026-05-15T21:34:26.000Z",
+   "votes": [
+    "bull/explicit/none",
+    "bull/explicit/none",
+    "neutral/explicit/none"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.043
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.025,
+   "funded": {
+    "from_cash": 0.0,
+    "pro_rata_trim_of_others": 0.0644
+   },
+   "level": "B",
+   "source_text": "Leopold Aschenbrenner is a legend, but I'm not quite sure he can beat 3152.77% YTD in the Serenity Awareness fund. \n\nThat being said, I've hit 23 different longs this year with 100-1000%+ YTD.\n\n1. $AXTI \n2. $AAOI \n3. $SIVE \n4. $LITE \n5. $IQE\n6. $AEHR\n7. $CRCL\n8. $EWY\n9. Unimicron",
+   "source_url": "https://x.com/i/status/2055401446397690311",
+   "state": "持有",
+   "ticker": "LSE:IQE",
+   "ts": "2026-05-15T21:34:26.000Z",
+   "votes": [
+    "bull/explicit/none",
+    "bull/explicit/none",
+    "neutral/explicit/none"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.0644
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.025,
+   "funded": {
+    "from_cash": 0.0,
+    "pro_rata_trim_of_others": 0.043
+   },
+   "level": "B",
+   "source_text": "Leopold Aschenbrenner is a legend, but I'm not quite sure he can beat 3152.77% YTD in the Serenity Awareness fund. \n\nThat being said, I've hit 23 different longs this year with 100-1000%+ YTD.\n\n1. $AXTI \n2. $AAOI \n3. $SIVE \n4. $LITE \n5. $IQE\n6. $AEHR\n7. $CRCL\n8. $EWY\n9. Unimicron",
+   "source_url": "https://x.com/i/status/2055401446397690311",
+   "state": "持有",
+   "ticker": "TPE:3037",
+   "ts": "2026-05-15T21:34:26.000Z",
+   "votes": [
+    "bull/explicit/none",
+    "bull/explicit/none",
+    "neutral/explicit/none"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.043
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.025,
+   "funded": {
+    "from_cash": 0.0,
+    "pro_rata_trim_of_others": 0.0561
+   },
+   "level": "B",
+   "source_text": "Fun fact: over 70%+ of my portfolio is unrealized, I haven't sold a single share in many of these. \n\nIt helps if things like $AXTI hit 1900%+ returns, $SIVE hit 1000%+ returns, and everything larger in concentration hit 300% like $SOI. \n\nBut basically entire portfolio is up tripl",
+   "source_url": "https://x.com/i/status/2055405163092066719",
+   "state": "建倉",
+   "ticker": "TSX:HPS.A",
+   "ts": "2026-05-15T21:49:13.000Z",
+   "votes": [
+    "bull/explicit/buy",
+    "bull/explicit/buy",
+    "neutral/explicit/buy"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.0561
+  },
+  {
+   "action": "trim_to_cash",
+   "cash_after": 0.0431,
+   "funded": null,
+   "level": "B",
+   "source_text": "A good looking guy that would mog Clavicular side by side has no impact to any fundamentals.\n\nI cut some exposure too in $LITE $COHR like Leopold, last month. \n\nBut rotated it to a specific optical theme with CPO names like $SIVE / Foci.\n\nThe entire photonics supply chain is in h",
+   "source_url": "https://x.com/i/status/2056558267896311996",
+   "state": "減碼",
+   "ticker": "LITE",
+   "ts": "2026-05-19T02:11:14.000Z",
+   "votes": [
+    "neutral/explicit/trim",
+    "neutral/explicit/trim",
+    "neutral/explicit/trim"
+   ],
+   "weight_from": 0.0362,
+   "weight_to": 0.0181
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.025,
+   "funded": {
+    "from_cash": 0.0181,
+    "pro_rata_trim_of_others": 0.0119
+   },
+   "level": "C",
+   "source_text": "Just in case you want to frontrun the next major catalyst: \n\n$NVDA June 1 Computex/GTC Taipei keynote should be heavily bullish Taiwan optical ecosystem?\n\nJust like when I went long on $TSEM and others in Nvidia’s US event.\n\nShunsin, Foci, Nextronics, MSScorps, and a lot of my ht",
+   "source_url": "https://x.com/i/status/2057319580595568833",
+   "state": "持有",
+   "ticker": "TPE:6451",
+   "ts": "2026-05-21T04:36:25.000Z",
+   "votes": [
+    "bull/none/none",
+    "bull/none/none",
+    "neutral/none/none"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.03
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.025,
+   "funded": {
+    "from_cash": 0.0,
+    "pro_rata_trim_of_others": 0.0319
+   },
+   "level": "B",
+   "source_text": "Just in case you want to frontrun the next major catalyst: \n\n$NVDA June 1 Computex/GTC Taipei keynote should be heavily bullish Taiwan optical ecosystem?\n\nJust like when I went long on $TSEM and others in Nvidia’s US event.\n\nShunsin, Foci, Nextronics, MSScorps, and a lot of my ht",
+   "source_url": "https://x.com/i/status/2057319580595568833",
+   "state": "建倉",
+   "ticker": "TSEM",
+   "ts": "2026-05-21T04:36:25.000Z",
+   "votes": [
+    "bull/explicit/buy",
+    "bull/explicit/none",
+    "neutral/explicit/buy"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.0319
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.025,
+   "funded": {
+    "from_cash": 0.0,
+    "pro_rata_trim_of_others": 0.03
+   },
+   "level": "B",
+   "source_text": "People keep asking:\n\nHey why do have new longs with Taiwan/EU stocks recently like $LPK or Foci?\n\nAnd not much with new US ones?\n\nIt's partly because the list of US stocks I've liked from $INTC to $NBIS hasn't changed. \n\nYou can always just let the ones you like grow. https://t.c",
+   "source_url": "https://x.com/i/status/2057826212257685733",
+   "state": "建倉",
+   "ticker": "ETR:LPK",
+   "ts": "2026-05-22T14:09:36.000Z",
+   "votes": [
+    "bull/explicit/buy",
+    "bull/explicit/buy",
+    "neutral/none/none"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.03
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.025,
+   "funded": {
+    "from_cash": 0.0,
+    "pro_rata_trim_of_others": 0.03
+   },
+   "level": "C",
+   "source_text": "I don't post dollar amounts because they don't matter. \n\nWhat matters is return %. Speaking of that... \n\nYTD: 3840.39%. \n\nI'm probably the only one in the world. Who called out multiple names that 10x'd in a short timeframe. \n\nDo you remember these thesis anon?\n\n1. $AXTI\n2. $SIVE",
+   "source_url": "https://x.com/i/status/2058230354063102028",
+   "state": "未知",
+   "ticker": "NBIS",
+   "ts": "2026-05-23T16:55:31.000Z",
+   "votes": [
+    "bull/none/none",
+    "bull/none/none",
+    "bull/none/none"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.03
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.025,
+   "funded": {
+    "from_cash": 0.0,
+    "pro_rata_trim_of_others": 0.03
+   },
+   "level": "C",
+   "source_text": "AI capex spend is expected to go to \"$3 to $4 trillion annually\" by 2030 from $NVDA Jensen Huang projections. \n\nYou're not bullish enough. \n\nAnd it might be a good idea to stay exposed + own the keys of the AI Kingdom:\n\n-> $AXTI controls the materials buildout with photonics.\n-> ",
+   "source_url": "https://x.com/i/status/2058618801554604040",
+   "state": "未知",
+   "ticker": "SLOIY",
+   "ts": "2026-05-24T18:39:04.000Z",
+   "votes": [
+    "neutral/none/none",
+    "bull/none/none",
+    "bull/none/none"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.03
+  },
+  {
+   "action": "exit_to_cash",
+   "cash_after": 0.0514,
+   "funded": null,
+   "level": "C",
+   "source_text": "Win Semi (3105) is almost never mentioned in photonics analyst reports. \n\nBut they’ll probably show up as an important bottleneck for scaling lasers next year.\n\nGlad to see Shunsin (6451) start picking up steam from my TW longs.\n\nFoci (3363), MSSCorp (6830) should start getting s",
+   "source_url": "https://x.com/i/status/2059079948980363774",
+   "state": "持有",
+   "ticker": "TPE:6451",
+   "ts": "2026-05-26T01:11:30.000Z",
+   "votes": [
+    "neutral/none/none",
+    "neutral/none/none",
+    "bull/explicit/none"
+   ],
+   "weight_from": 0.0264,
+   "weight_to": 0.0
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.025,
+   "funded": {
+    "from_cash": 0.0264,
+    "pro_rata_trim_of_others": 0.0036
+   },
+   "level": "B",
+   "source_text": "Win Semi (3105) is almost never mentioned in photonics analyst reports. \n\nBut they’ll probably show up as an important bottleneck for scaling lasers next year.\n\nGlad to see Shunsin (6451) start picking up steam from my TW longs.\n\nFoci (3363), MSSCorp (6830) should start getting s",
+   "source_url": "https://x.com/i/status/2059079948980363774",
+   "state": "持有",
+   "ticker": "TPEX:6830",
+   "ts": "2026-05-26T01:11:30.000Z",
+   "votes": [
+    "bull/explicit/none",
+    "neutral/none/none",
+    "bull/explicit/none"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.03
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.025,
+   "funded": {
+    "from_cash": 0.0,
+    "pro_rata_trim_of_others": 0.03
+   },
+   "level": "B",
+   "source_text": "Win Semi (3105) is almost never mentioned in photonics analyst reports. \n\nBut they’ll probably show up as an important bottleneck for scaling lasers next year.\n\nGlad to see Shunsin (6451) start picking up steam from my TW longs.\n\nFoci (3363), MSSCorp (6830) should start getting s",
+   "source_url": "https://x.com/i/status/2059079948980363774",
+   "state": "持有",
+   "ticker": "TPEX:8147",
+   "ts": "2026-05-26T01:11:30.000Z",
+   "votes": [
+    "bull/explicit/none",
+    "bull/explicit/none",
+    "bull/explicit/none"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.03
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.025,
+   "funded": {
+    "from_cash": 0.0,
+    "pro_rata_trim_of_others": 0.03
+   },
+   "level": "B",
+   "source_text": "$XFAB (photonics + power semis) is an interesting long idea at $1.28B MC, that I took positions in.\n\nGiven EU CHIPS act 2 is today as the catalyst for European photonics players.\n\n> 800 VDC power semi exposure to $NVDA push through $NVTS + $POWI\n\n> Silicon Photonics / CPO exposur",
+   "source_url": "https://x.com/i/status/2059537337324085541",
+   "state": "建倉",
+   "ticker": "EPA:XFAB",
+   "ts": "2026-05-27T07:29:00.000Z",
+   "votes": [
+    "neutral/none/none",
+    "bull/explicit/buy",
+    "bull/explicit/buy"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.03
+  },
+  {
+   "action": "exit_to_cash",
+   "cash_after": 0.0531,
+   "funded": null,
+   "level": "C",
+   "source_text": "$XFAB (photonics + power semis) is an interesting long idea at $1.28B MC, that I took positions in.\n\nGiven EU CHIPS act 2 is today as the catalyst for European photonics players.\n\n> 800 VDC power semi exposure to $NVDA push through $NVTS + $POWI\n\n> Silicon Photonics / CPO exposur",
+   "source_url": "https://x.com/i/status/2059537337324085541",
+   "state": "未知",
+   "ticker": "SLOIY",
+   "ts": "2026-05-27T07:29:00.000Z",
+   "votes": [
+    "neutral/none/none",
+    "neutral/explicit/none",
+    "neutral/none/none"
+   ],
+   "weight_from": 0.0281,
+   "weight_to": 0.0
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.025,
+   "funded": {
+    "from_cash": 0.0281,
+    "pro_rata_trim_of_others": 0.0019
+   },
+   "level": "B",
+   "source_text": "Idk… I mean everyone called $AXTI a scam and now it’s up thousands of percent?\n\nEveryone called $AAOI management a scam and now that’s up 7x too. \n\nInstitutions went out and criticized my $SOI long as well at $44 and now it’s $170… after they bought the float…\n\nNot sure if it’s s",
+   "source_url": "https://x.com/i/status/2059648878698484069",
+   "state": "持有",
+   "ticker": "SLOIF",
+   "ts": "2026-05-27T14:52:13.000Z",
+   "votes": [
+    "bull/explicit/none",
+    "bull/explicit/none",
+    "bull/explicit/none"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.03
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.025,
+   "funded": {
+    "from_cash": 0.0,
+    "pro_rata_trim_of_others": 0.03
+   },
+   "level": "B",
+   "source_text": "Just in case people are wondering about my track record with European equities:\n\n$RPI: $280 -> $800 (agentic AI hardware demand thesis).\n\n$LPK: ~$6, thesis at $13 -> $24.2 (glass cores substrates close monopoly) \n\n$SOI: $44 -> $181 (silicon photonics, monopoly over substrates) \n\n",
+   "source_url": "https://x.com/i/status/2059981363684802708",
+   "state": "持有",
+   "ticker": "EPA:ALRIB",
+   "ts": "2026-05-28T12:53:24.000Z",
+   "votes": [
+    "bull/explicit/none",
+    "bull/explicit/none",
+    "bull/explicit/none"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.03
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.025,
+   "funded": {
+    "from_cash": 0.0,
+    "pro_rata_trim_of_others": 0.03
+   },
+   "level": "B",
+   "source_text": "Just in case people are wondering about my track record with European equities:\n\n$RPI: $280 -> $800 (agentic AI hardware demand thesis).\n\n$LPK: ~$6, thesis at $13 -> $24.2 (glass cores substrates close monopoly) \n\n$SOI: $44 -> $181 (silicon photonics, monopoly over substrates) \n\n",
+   "source_url": "https://x.com/i/status/2059981363684802708",
+   "state": "持有",
+   "ticker": "LSE:RPI",
+   "ts": "2026-05-28T12:53:24.000Z",
+   "votes": [
+    "bull/explicit/none",
+    "bull/explicit/none",
+    "bull/explicit/none"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.03
+  },
+  {
+   "action": "exit_to_cash",
+   "cash_after": 0.0505,
+   "funded": null,
+   "level": "C",
+   "source_text": "> markets went from doubting $SIVE customers ($150m MC)\n\nTurns out it’s likely companies eg. $JBL, Ayar, $AAPL, Defense Primes, $MRVL celestial. \n\n> to doubting their execution ($600m mc)\n\nTurns out you skip the capex if you go with Win Semi\n\n> to doubting what share they get vs ",
+   "source_url": "https://x.com/i/status/2060615296357196178",
+   "state": "未知",
+   "ticker": "NBIS",
+   "ts": "2026-05-30T06:52:25.000Z",
+   "votes": [
+    "neutral/none/none",
+    "neutral/none/none",
+    "neutral/none/none"
+   ],
+   "weight_from": 0.0255,
+   "weight_to": 0.0
+  },
+  {
+   "action": "exit_to_cash",
+   "cash_after": 0.0814,
+   "funded": null,
+   "level": "B",
+   "source_text": "The “You’re So Rich Now” $NVDA ETF.\n\nThese were just some of the supply chain partners Jensen made a toast to with that comment:\n\nTSMC (https://t.co/klkdidhdwN / TSM) - $1.95T  \nMicron (MU) - $1.10T  \nDelta (https://t.co/QU9iDMM1OA) - $202.28B  \nAmphenol ( $APH )- $183.00B  \nFoxc",
+   "source_url": "https://x.com/i/status/2060833534814867479",
+   "state": "持有",
+   "ticker": "TPE:3037",
+   "ts": "2026-05-30T21:19:37.000Z",
+   "votes": [
+    "neutral/none/none",
+    "neutral/none/none",
+    "neutral/none/none"
+   ],
+   "weight_from": 0.0309,
+   "weight_to": 0.0
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.0514,
+   "funded": null,
+   "level": "B",
+   "source_text": "Can’t believe $ARM went straight from $134 to $354 when I took positions.\n\nThe ~$15B annual revenue coming from these cool name AI CPUs seemed a bit insane at the time.\n\nAt Computex, looks like $NVDA is unveiling new ARM based processors too.\n\nCounterpoint them shows them https:/",
+   "source_url": "https://x.com/i/status/2061233888454988260",
+   "state": "建倉",
+   "ticker": "ARM",
+   "ts": "2026-05-31T23:50:29.000Z",
+   "votes": [
+    "bull/explicit/buy",
+    "bull/explicit/buy",
+    "neutral/explicit/buy"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.03
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.025,
+   "funded": {
+    "from_cash": 0.0264,
+    "pro_rata_trim_of_others": 0.0036
+   },
+   "level": "B",
+   "source_text": "There's a new $SIVE short seller with 0 clue what they're talking about. \n\n1. $MRVL Celestial is likely buying lasers directly with $SIVE as the laser supplier, not through $POET. \n\nAs they've been identified as a likely direct customer since 2023. \n\nAn analogy is if O-Net / Enab",
+   "source_url": "https://x.com/i/status/2061456212303221196",
+   "state": "持有",
+   "ticker": "TPEX:3105",
+   "ts": "2026-06-01T14:33:55.000Z",
+   "votes": [
+    "bull/none/none",
+    "bull/none/none",
+    "neutral/none/none"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.03
+  },
+  {
+   "action": "exit_to_cash",
+   "cash_after": 0.054,
+   "funded": null,
+   "level": "B",
+   "source_text": "A special thank you to the only European stock green today: $IQE. \n\nUp to $54, from when I went long at $12-13, 4 months ago. \n\nUnfortunately lot of volatility with the other ones from $LPK, $SOI, $XFAB, and $ALRIB. https://t.co/FysZyHk5OK https://t.co/rRCORshRmj",
+   "source_url": "https://x.com/i/status/2061466217911853429",
+   "state": "持有",
+   "ticker": "EPA:ALRIB",
+   "ts": "2026-06-01T15:13:41.000Z",
+   "votes": [
+    "neutral/implied/none",
+    "neutral/none/none",
+    "neutral/none/none"
+   ],
+   "weight_from": 0.029,
+   "weight_to": 0.0
+  },
+  {
+   "action": "exit_to_cash",
+   "cash_after": 0.0766,
+   "funded": null,
+   "level": "B",
+   "source_text": "Good times with $AEHR, it’s now ~$3.5B MC.\n\nHaven’t mentioned it as much since there’s nothing too new. \n\nJust waiting on volume orders for these types of players like $LPK, and others. https://t.co/W8k0ce3RSE https://t.co/MhEQmNgAek",
+   "source_url": "https://x.com/i/status/2061958857132585076",
+   "state": "持有",
+   "ticker": "AEHR",
+   "ts": "2026-06-02T23:51:15.000Z",
+   "votes": [
+    "bull/none/none",
+    "bull/none/none",
+    "bull/none/none"
+   ],
+   "weight_from": 0.0227,
+   "weight_to": 0.0
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.0466,
+   "funded": null,
+   "level": "B",
+   "source_text": "There we go. \n\nMy CPO longs in Taiwan are finally starting to take off today.\n\nShunsin +10%\nFoci +10%\nXintec +10%\n\nJust waiting on Win Semi, Msscorp, and Nextronics to catch up. https://t.co/9Afaux4B2H",
+   "source_url": "https://x.com/i/status/2061980916323598838",
+   "state": "持有",
+   "ticker": "TPE:6451",
+   "ts": "2026-06-03T01:18:54.000Z",
+   "votes": [
+    "bull/explicit/none",
+    "bull/explicit/none",
+    "bull/explicit/none"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.03
+  },
+  {
+   "action": "exit_to_cash",
+   "cash_after": 0.0738,
+   "funded": null,
+   "level": "B",
+   "source_text": "There we go. \n\nMy CPO longs in Taiwan are finally starting to take off today.\n\nShunsin +10%\nFoci +10%\nXintec +10%\n\nJust waiting on Win Semi, Msscorp, and Nextronics to catch up. https://t.co/9Afaux4B2H",
+   "source_url": "https://x.com/i/status/2061980916323598838",
+   "state": "持有",
+   "ticker": "TPEX:8147",
+   "ts": "2026-06-03T01:18:54.000Z",
+   "votes": [
+    "bull/implied/none",
+    "bull/implied/none",
+    "neutral/none/none"
+   ],
+   "weight_from": 0.0272,
+   "weight_to": 0.0
+  },
+  {
+   "action": "add_from_cash",
+   "cash_after": 0.0276,
+   "funded": null,
+   "level": "B",
+   "source_text": "$AAOI is one of the names I keep averaging up on since $28.\n\nJust from random shower thoughts… I feel like it’s just imminent to double or triple if they execute? \n\nThere’s just too much demand for 800g/1.6T optical transceivers… \n\nThen this company is targeting the largest capac",
+   "source_url": "https://x.com/i/status/2062697638500462639",
+   "state": "加碼",
+   "ticker": "AAOI",
+   "ts": "2026-06-05T00:46:54.000Z",
+   "votes": [
+    "bull/explicit/add",
+    "bull/explicit/add",
+    "bull/explicit/add"
+   ],
+   "weight_from": 0.1846,
+   "weight_to": 0.2307
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.025,
+   "funded": {
+    "from_cash": 0.0026,
+    "pro_rata_trim_of_others": 0.0274
+   },
+   "level": "B",
+   "source_text": "Still think this US list from $MRVL to $ARM to $INTC was goated. \n\nJust as a recap if new followers were wondering what US equities I like.\n\nEspecially because I've been talking about international companies recently. https://t.co/tZGLrFEGoh https://t.co/1mkk0NG6Ao",
+   "source_url": "https://x.com/i/status/2063984786918854663",
+   "state": "未知",
+   "ticker": "MRVL",
+   "ts": "2026-06-08T14:01:34.000Z",
+   "votes": [
+    "bull/none/none",
+    "bull/none/none",
+    "bull/none/none"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.03
+  },
+  {
+   "action": "exit_to_cash",
+   "cash_after": 0.0384,
+   "funded": null,
+   "level": "B",
+   "source_text": "Names like:\n\n- $ASX\n- Sumitomo Electric\n- $JBL\n- $VICR\n- $GFS \n- $AAOI \n- AlChip \n- $TSEM\n- $FN\n- Furukawa Electric\n- $CLS\n- $NBIS\n- $NOK\n- $AMKR\n- $LITE\n- $COHR\n\nOff the top of my head.\n\nSo basically, AI exposure trading in the $10-100B range.\n\nLikely have compelling ROI right n",
+   "source_url": "https://x.com/i/status/2064314680521507114",
+   "state": "減碼",
+   "ticker": "LITE",
+   "ts": "2026-06-09T11:52:27.000Z",
+   "votes": [
+    "bull/none/none",
+    "bull/none/none",
+    "bull/none/none"
+   ],
+   "weight_from": 0.0134,
+   "weight_to": 0.0
+  },
+  {
+   "action": "exit_to_cash",
+   "cash_after": 0.0684,
+   "funded": null,
+   "level": "B",
+   "source_text": "Names like:\n\n- $ASX\n- Sumitomo Electric\n- $JBL\n- $VICR\n- $GFS \n- $AAOI \n- AlChip \n- $TSEM\n- $FN\n- Furukawa Electric\n- $CLS\n- $NBIS\n- $NOK\n- $AMKR\n- $LITE\n- $COHR\n\nOff the top of my head.\n\nSo basically, AI exposure trading in the $10-100B range.\n\nLikely have compelling ROI right n",
+   "source_url": "https://x.com/i/status/2064314680521507114",
+   "state": "未知",
+   "ticker": "MRVL",
+   "ts": "2026-06-09T11:52:27.000Z",
+   "votes": [
+    "neutral/none/none",
+    "neutral/none/none",
+    "neutral/none/none"
+   ],
+   "weight_from": 0.03,
+   "weight_to": 0.0
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.0384,
+   "funded": null,
+   "level": "B",
+   "source_text": "Names like:\n\n- $ASX\n- Sumitomo Electric\n- $JBL\n- $VICR\n- $GFS \n- $AAOI \n- AlChip \n- $TSEM\n- $FN\n- Furukawa Electric\n- $CLS\n- $NBIS\n- $NOK\n- $AMKR\n- $LITE\n- $COHR\n\nOff the top of my head.\n\nSo basically, AI exposure trading in the $10-100B range.\n\nLikely have compelling ROI right n",
+   "source_url": "https://x.com/i/status/2064314680521507114",
+   "state": "持有",
+   "ticker": "NBIS",
+   "ts": "2026-06-09T11:52:27.000Z",
+   "votes": [
+    "bull/explicit/none",
+    "bull/explicit/none",
+    "bull/none/none"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.03
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.025,
+   "funded": {
+    "from_cash": 0.0134,
+    "pro_rata_trim_of_others": 0.0166
+   },
+   "level": "B",
+   "source_text": "I don’t quite think photonics from $AAOI to $LITE or $SIVE are disappearing anytime soon…\n\nJust extremely volatile.\n\nAnyway, curious what other people are buying today? https://t.co/Io9SVuq583",
+   "source_url": "https://x.com/i/status/2064361170270933269",
+   "state": "減碼",
+   "ticker": "LITE",
+   "ts": "2026-06-09T14:57:11.000Z",
+   "votes": [
+    "bull/none/none",
+    "bull/none/none",
+    "neutral/none/none"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.03
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.025,
+   "funded": {
+    "from_cash": 0.0,
+    "pro_rata_trim_of_others": 0.03
+   },
+   "level": "B",
+   "source_text": "Just as a recap, these were all my core European longs:\n\n1. $SIVE\n2. $LPK\n3. $SOI\n4. $RPI \n5. $IQE\n6. $ALRIB\n7. $XFAB\n\nSivers: As you know by now, core laser chokepoint over next generation photonics, from 1.6T pluggables to CPO.\n\nEmbedded in many hyperscaler suppliers from Jabil",
+   "source_url": "https://x.com/i/status/2066535221554733278",
+   "state": "持有",
+   "ticker": "EPA:SOI",
+   "ts": "2026-06-15T14:56:05.000Z",
+   "votes": [
+    "bull/explicit/none",
+    "neutral/none/none",
+    "bull/explicit/none"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.03
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.025,
+   "funded": {
+    "from_cash": 0.0,
+    "pro_rata_trim_of_others": 0.03
+   },
+   "level": "B",
+   "source_text": "Just a reminder: 99% of X was bearish on memory 3 months ago...\n\nSince then:\n\n$MU $380 -> $1122 (+195.26%)\n$SNDK $565 -> $2155 (+281.42%)\n$EWY $132 -> $219 (+65.91%)\nSK Hynix 849K -> 2.685M KRW (+215.5%)\nSamsung 172K -> 362K KRW (+110.7%)\n\nIf you see a bunch of projections on mem",
+   "source_url": "https://x.com/i/status/2067621883525394768",
+   "state": "加碼",
+   "ticker": "SNDK",
+   "ts": "2026-06-18T14:54:06.000Z",
+   "votes": [
+    "bull/none/none",
+    "bull/none/none",
+    "neutral/none/none"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.03
+  },
+  {
+   "action": "exit_to_cash",
+   "cash_after": 0.0518,
+   "funded": null,
+   "level": "B",
+   "source_text": "I think something to highlight also is not all my ideas are green, especially on short term timeframes!\n\nMy core three themes are Neoclouds (Energy), Memory, and Photonics. \n\nAnd I'm glad I chose the literal top performers for each segment from $NBIS to $EWY leaps to $SIVE. \n\nHow",
+   "source_url": "https://x.com/i/status/2067945397923037693",
+   "state": "建倉",
+   "ticker": "ARM",
+   "ts": "2026-06-19T12:19:38.000Z",
+   "votes": [
+    "bull/none/none",
+    "bull/none/none",
+    "bull/none/none"
+   ],
+   "weight_from": 0.0268,
+   "weight_to": 0.0
+  },
+  {
+   "action": "exit_to_cash",
+   "cash_after": 0.0787,
+   "funded": null,
+   "level": "B",
+   "source_text": "I think something to highlight also is not all my ideas are green, especially on short term timeframes!\n\nMy core three themes are Neoclouds (Energy), Memory, and Photonics. \n\nAnd I'm glad I chose the literal top performers for each segment from $NBIS to $EWY leaps to $SIVE. \n\nHow",
+   "source_url": "https://x.com/i/status/2067945397923037693",
+   "state": "持有",
+   "ticker": "TPEX:3105",
+   "ts": "2026-06-19T12:19:38.000Z",
+   "votes": [
+    "bull/implied/none",
+    "neutral/none/none",
+    "neutral/none/none"
+   ],
+   "weight_from": 0.0269,
+   "weight_to": 0.0
+  },
+  {
+   "action": "exit_to_cash",
+   "cash_after": 0.117,
+   "funded": null,
+   "level": "B",
+   "source_text": "I think something to highlight also is not all my ideas are green, especially on short term timeframes!\n\nMy core three themes are Neoclouds (Energy), Memory, and Photonics. \n\nAnd I'm glad I chose the literal top performers for each segment from $NBIS to $EWY leaps to $SIVE. \n\nHow",
+   "source_url": "https://x.com/i/status/2067945397923037693",
+   "state": "建倉",
+   "ticker": "TSX:HPS.A",
+   "ts": "2026-06-19T12:19:38.000Z",
+   "votes": [
+    "bull/none/none",
+    "bull/none/none",
+    "neutral/none/none"
+   ],
+   "weight_from": 0.0383,
+   "weight_to": 0.0
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.087,
+   "funded": null,
+   "level": "B",
+   "source_text": "In terms of personal notes:\n\n1. Priortech owns 21% of $CAMT, ~1.35x their MC, seems more like holding co.\n\n2. Bit Digital people kept shouting, but NAV discount is not clean $WYFI, lot of dilution + not AI parent. \n\n3. Wistron (3231) is the best one I've seen since $SIVE + Ayar +",
+   "source_url": "https://x.com/i/status/2068180134667182470",
+   "state": "持有",
+   "ticker": "TPE:2316",
+   "ts": "2026-06-20T03:52:23.000Z",
+   "votes": [
+    "bull/explicit/none",
+    "bull/explicit/none",
+    "bull/explicit/none"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.03
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.057,
+   "funded": null,
+   "level": "B",
+   "source_text": "As for $LPK: Maybe $3B-$5B seems reasonable when they fully volume ramp if I had to guess. \n\nFeels more asymmetrical to me personally since it's just a waiting game and they have the customers for glass substrates. \n\nSmall machine supplier chokepoints usually cap out from TAM tho",
+   "source_url": "https://x.com/i/status/2069005921318281566",
+   "state": "持有",
+   "ticker": "EPA:ALRIB",
+   "ts": "2026-06-22T10:33:46.000Z",
+   "votes": [
+    "bull/explicit/none",
+    "bull/explicit/none",
+    "neutral/explicit/none"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.03
+  },
+  {
+   "action": "add_from_cash",
+   "cash_after": 0.0053,
+   "funded": null,
+   "level": "B",
+   "source_text": "@SMike1271547 I actually just added on $AAOI. \n\nWas talking about in general since everything dropped across the board, not specific names MB.",
+   "source_url": "https://x.com/i/status/2069441207865065735",
+   "state": "加碼",
+   "ticker": "AAOI",
+   "ts": "2026-06-23T15:23:26.000Z",
+   "votes": [
+    "bull/explicit/add",
+    "bull/explicit/add",
+    "neutral/explicit/add"
+   ],
+   "weight_from": 0.207,
+   "weight_to": 0.2587
+  },
+  {
+   "action": "exit_to_cash",
+   "cash_after": 0.0353,
+   "funded": null,
+   "level": "B",
+   "source_text": "Curious if anyone's portfolio is green after today's fun day.  \n\n$KORU: -32.06%\n$SOXL: -22.98%\n$IQE: -13.58%\n$DRAM: -12.6%\n$AXTI: -12.57%\n$FLNC: -12.5%\n$AAOI: -11.2%\n$SIVE: -11.7%\n$TSEM: -10.24%\n$SNDK: -12.5%\n$MU: -11.8%\nSk Hynix: -12.35%\nSamsung: -9.6%\n$MRVL: -8.3%\n$LITE: -7.6%\n",
+   "source_url": "https://x.com/i/status/2069445918114697463",
+   "state": "加碼",
+   "ticker": "SNDK",
+   "ts": "2026-06-23T15:42:09.000Z",
+   "votes": [
+    "neutral/none/none",
+    "neutral/none/none",
+    "neutral/none/none"
+   ],
+   "weight_from": 0.03,
+   "weight_to": 0.0
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.025,
+   "funded": {
+    "from_cash": 0.0103,
+    "pro_rata_trim_of_others": 0.0197
+   },
+   "level": "B",
+   "source_text": "Nah, gonna fill out the job application for $WEN and set up camp behind the dumpsters. \n\nEven $MU and $SNDK ridiculous performance today couldn't save my port.\n\nCheering on Japan though, hoping Sweden gets mogged with a 2-0 to represent the 20% drop. https://t.co/wihxMVvCLw",
+   "source_url": "https://x.com/i/status/2070189253573890167",
+   "state": "加碼",
+   "ticker": "SNDK",
+   "ts": "2026-06-25T16:55:54.000Z",
+   "votes": [
+    "bull/implied/none",
+    "bull/implied/none",
+    "neutral/none/none"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.03
+  },
+  {
+   "action": "exit_to_cash",
+   "cash_after": 0.0514,
+   "funded": null,
+   "level": "B",
+   "source_text": "Just some of the more interesting news I came across recently:\n\n1. MS: Revised China humanoid shipments to reach 50,000 in 2026 from 14,000u and 28,000u earlier this year.\n\n2. MS: Probe cards and test sockets likely to be priced hike (precious metal hikes + severe shortage of tes",
+   "source_url": "https://x.com/i/status/2072178393878290789",
+   "state": "持有",
+   "ticker": "TPE:6451",
+   "ts": "2026-07-01T04:40:02.000Z",
+   "votes": [
+    "neutral/none/none",
+    "neutral/none/none",
+    "neutral/none/none"
+   ],
+   "weight_from": 0.0264,
+   "weight_to": 0.0
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.025,
+   "funded": {
+    "from_cash": 0.0264,
+    "pro_rata_trim_of_others": 0.0036
+   },
+   "level": "B",
+   "source_text": "@ontrialperiod when global and US markets crash off misinformation and out of context quotes from $META. I probably want to clear that up?\n\nThat thing said, $AAOI, $SIVE, and $CCXI do make up large concentration in my portfolio.",
+   "source_url": "https://x.com/i/status/2072925550608523738",
+   "state": "持有",
+   "ticker": "CCXI",
+   "ts": "2026-07-03T06:08:59.000Z",
+   "votes": [
+    "neutral/explicit/none",
+    "neutral/explicit/none",
+    "neutral/none/none"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.03
+  },
+  {
+   "action": "exit_to_cash",
+   "cash_after": 0.0549,
+   "funded": null,
+   "level": "B",
+   "source_text": "Just some consolidated updates on memory: \n\n-  $MU leads new 1.5T Yen investment in Hiroshima ~$9.3B. (bullish read through for Disco, Advantest, Resonac, Towa) since capex is localized.\n\n- Morgan Stanley pointed out NAND will continue to be in short supply into 2027 so $SNDK / K",
+   "source_url": "https://x.com/i/status/2073793206408667392",
+   "state": "加碼",
+   "ticker": "SNDK",
+   "ts": "2026-07-05T15:36:44.000Z",
+   "votes": [
+    "bull/none/none",
+    "bull/none/none",
+    "neutral/none/none"
+   ],
+   "weight_from": 0.0299,
+   "weight_to": 0.0
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.025,
+   "funded": {
+    "from_cash": 0.0299,
+    "pro_rata_trim_of_others": 0.0001
+   },
+   "level": "B",
+   "source_text": "Just putting it out there:\n\nIf everything crashes together from $NBIS, $MRVL, $INTC, $SNDK, $AMD, $SIVE, $MU, $LITE, and others... \n\nWhich are all down -4% to -10%+ today so far. \n\nProbably doesn't have anything to do with individual fundamentals. \n\nIndiscriminate selloffs from t",
+   "source_url": "https://x.com/i/status/2074494514061017508",
+   "state": "加碼",
+   "ticker": "SNDK",
+   "ts": "2026-07-07T14:03:29.000Z",
+   "votes": [
+    "bull/none/none",
+    "bull/none/none",
+    "neutral/none/none"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.03
+  },
+  {
+   "action": "exit_to_cash",
+   "cash_after": 0.0534,
+   "funded": null,
+   "level": "B",
+   "source_text": "Wow, a historic single day recovery.\n\n$SIVEF +30.89%\n$IQEF +28.6%\n$AEHR +26.53%\n$CIFR +17.82%\n$NBIS +17.3%\n$AAOI +15.6%\n$LPK +14.48%\n$AXTI +14.12%\n$MU +12.54%\n$SNDK +12.8%\n$SOI +11.1%\n$TSEM +10.39%\n$LITE +9.25%\n$INTC +8.22%\n$AMD +8.11%\n$MRVL +7.27%",
+   "source_url": "https://x.com/i/status/2079622706572804368",
+   "state": "持有",
+   "ticker": "EPA:SOI",
+   "ts": "2026-07-21T17:41:05.000Z",
+   "votes": [
+    "neutral/none/none",
+    "neutral/none/none",
+    "neutral/none/none"
+   ],
+   "weight_from": 0.0284,
+   "weight_to": 0.0
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.025,
+   "funded": {
+    "from_cash": 0.0284,
+    "pro_rata_trim_of_others": 0.0016
+   },
+   "level": "C",
+   "source_text": "$INTC and $AMD to sign CPU LTAs with Chinese customers for AI DCs (Reuters). \n\n- Prices of some CPU products have risen more than 40% in China since the start of the year from sources. \n\n- Month-on-month increases topping 10% for some products\n\nCPUs were already a bottleneck, fol",
+   "source_url": "https://x.com/i/status/2080153334888182065",
+   "state": "持有",
+   "ticker": "MU",
+   "ts": "2026-07-23T04:49:37.000Z",
+   "votes": [
+    "bull/none/none",
+    "bull/none/none",
+    "neutral/none/none"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.03
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.025,
+   "funded": {
+    "from_cash": 0.0,
+    "pro_rata_trim_of_others": 0.03
+   },
+   "level": "B",
+   "source_text": "Just some TLDR news:\n\n- $CXMT IPO tomorrow if you like Chinese memory. \n\n- Samsung Electronics reportedly struggling to secure large FC-BGA substrates. Ibiden (4062) reportedly requested LTA guarantees, Samsung Electro-Mechanics sought prepayments. \n\n- Samsung + $AVGO sign memory",
+   "source_url": "https://x.com/i/status/2081472671129501729",
+   "state": "持有",
+   "ticker": "EPA:SOI",
+   "ts": "2026-07-26T20:12:11.000Z",
+   "votes": [
+    "bull/none/none",
+    "bull/none/none",
+    "neutral/none/none"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.03
+  },
+  {
+   "action": "exit_to_cash",
+   "cash_after": 0.0459,
+   "funded": null,
+   "level": "B",
+   "source_text": "Just some TLDR news:\n\n- $CXMT IPO tomorrow if you like Chinese memory. \n\n- Samsung Electronics reportedly struggling to secure large FC-BGA substrates. Ibiden (4062) reportedly requested LTA guarantees, Samsung Electro-Mechanics sought prepayments. \n\n- Samsung + $AVGO sign memory",
+   "source_url": "https://x.com/i/status/2081472671129501729",
+   "state": "建倉",
+   "ticker": "ETR:LPK",
+   "ts": "2026-07-26T20:12:11.000Z",
+   "votes": [
+    "neutral/none/none",
+    "bear/none/none",
+    "neutral/none/none"
+   ],
+   "weight_from": 0.0209,
+   "weight_to": 0.0
+  },
+  {
+   "action": "add_from_cash",
+   "cash_after": 0.0399,
+   "funded": null,
+   "level": "B",
+   "source_text": "Hmm, I personally added $AMKR in the $40's since I thought it was surprising it dropped that much after ER, even after $NVDA $1.5B deal + $TSM 10Y agreement. \n\nIt's more of a 2028 name though, though they have separate ramps in 2027. \n\n- Did some cost averaging on names like Foci",
+   "source_url": "https://x.com/i/status/2083274448845906083",
+   "state": "加碼",
+   "ticker": "EPA:XFAB",
+   "ts": "2026-07-31T19:31:48.000Z",
+   "votes": [
+    "bull/explicit/add",
+    "bull/explicit/add",
+    "bull/explicit/add"
+   ],
+   "weight_from": 0.0237,
+   "weight_to": 0.0297
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.025,
+   "funded": {
+    "from_cash": 0.0149,
+    "pro_rata_trim_of_others": 0.0151
+   },
+   "level": "B",
+   "source_text": "Hmm, I personally added $AMKR in the $40's since I thought it was surprising it dropped that much after ER, even after $NVDA $1.5B deal + $TSM 10Y agreement. \n\nIt's more of a 2028 name though, though they have separate ramps in 2027. \n\n- Did some cost averaging on names like Foci",
+   "source_url": "https://x.com/i/status/2083274448845906083",
+   "state": "加碼",
+   "ticker": "ETR:LPK",
+   "ts": "2026-07-31T19:31:48.000Z",
+   "votes": [
+    "neutral/none/none",
+    "bull/explicit/add",
+    "bull/explicit/add"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.03
+  },
+  {
+   "action": "add_from_cash",
+   "cash_after": 0.0,
+   "funded": null,
+   "level": "B",
+   "source_text": "Hmm, I personally added $AMKR in the $40's since I thought it was surprising it dropped that much after ER, even after $NVDA $1.5B deal + $TSM 10Y agreement. \n\nIt's more of a 2028 name though, though they have separate ramps in 2027. \n\n- Did some cost averaging on names like Foci",
+   "source_url": "https://x.com/i/status/2083274448845906083",
+   "state": "加碼",
+   "ticker": "TPEX:3363",
+   "ts": "2026-07-31T19:31:48.000Z",
+   "votes": [
+    "bull/explicit/add",
+    "bull/explicit/add",
+    "neutral/explicit/add"
+   ],
+   "weight_from": 0.1539,
+   "weight_to": 0.1789
+  },
+  {
+   "action": "exit_to_cash",
+   "cash_after": 0.0286,
+   "funded": null,
+   "level": "C",
+   "source_text": "SK Hynix, $MU , and Samsung have sold out of 2027 capacity for DRAM/HBM.\n\n$SNDK, Samsung, Micron current annual NAND capacity has been sold out, with Kioxia and SK Hynix expected to finalize allocations by August 2026. \n\n- Customers are being allocated only 60–70% of the volumes ",
+   "source_url": "https://x.com/i/status/2084468063228060092",
+   "state": "持有",
+   "ticker": "MU",
+   "ts": "2026-08-04T02:34:48.000Z",
+   "votes": [
+    "bull/none/none",
+    "neutral/none/none",
+    "neutral/none/none"
+   ],
+   "weight_from": 0.0286,
+   "weight_to": 0.0
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.025,
+   "funded": {
+    "from_cash": 0.0036,
+    "pro_rata_trim_of_others": 0.0264
+   },
+   "level": "C",
+   "source_text": "The $SHKY, Samsung, $SNDK, $MU memory bottleneck never changed anon https://t.co/6Xyih3pM9D https://t.co/bKsEc6rSmD",
+   "source_url": "https://x.com/i/status/2088226398708338889",
+   "state": "持有",
+   "ticker": "MU",
+   "ts": "2026-08-14T11:29:05.000Z",
+   "votes": [
+    "bull/none/none",
+    "bull/none/none",
+    "neutral/none/none"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.03
+  },
+  {
+   "action": "trim_to_cash",
+   "cash_after": 0.0357,
+   "funded": null,
+   "level": "B",
+   "source_text": "I've always been bullish on memory with $MU / Samsung / solana:SKHYhSjuRWHgikq8eRKbtBbpABgJSkd7ytQV14i9EQ3 for the 2026-2027 period.  \n\nSame opinion, even after $NVDA call. \n\nAnd I've been fervently defending how high end memory demand is structural + OP for operating income (esp",
+   "source_url": "https://x.com/i/status/2092851118233764178",
+   "state": "減碼",
+   "ticker": "EWY",
+   "ts": "2026-08-27T05:46:04.000Z",
+   "votes": [
+    "bull/explicit/trim",
+    "neutral/explicit/trim",
+    "neutral/explicit/trim"
+   ],
+   "weight_from": 0.0213,
+   "weight_to": 0.0107
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.025,
+   "funded": {
+    "from_cash": 0.0107,
+    "pro_rata_trim_of_others": 0.0193
+   },
+   "level": "B",
+   "source_text": "I've always been bullish on memory with $MU / Samsung / solana:SKHYhSjuRWHgikq8eRKbtBbpABgJSkd7ytQV14i9EQ3 for the 2026-2027 period.  \n\nSame opinion, even after $NVDA call. \n\nAnd I've been fervently defending how high end memory demand is structural + OP for operating income (esp",
+   "source_url": "https://x.com/i/status/2092851118233764178",
+   "state": "持有",
+   "ticker": "KRX:000660",
+   "ts": "2026-08-27T05:46:04.000Z",
+   "votes": [
+    "bull/explicit/hold",
+    "bull/explicit/hold",
+    "bull/explicit/none"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.03
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.025,
+   "funded": {
+    "from_cash": 0.0,
+    "pro_rata_trim_of_others": 0.03
+   },
+   "level": "B",
+   "source_text": "I've always been bullish on memory with $MU / Samsung / solana:SKHYhSjuRWHgikq8eRKbtBbpABgJSkd7ytQV14i9EQ3 for the 2026-2027 period.  \n\nSame opinion, even after $NVDA call. \n\nAnd I've been fervently defending how high end memory demand is structural + OP for operating income (esp",
+   "source_url": "https://x.com/i/status/2092851118233764178",
+   "state": "持有",
+   "ticker": "KRX:005930",
+   "ts": "2026-08-27T05:46:04.000Z",
+   "votes": [
+    "bull/explicit/hold",
+    "bull/explicit/hold",
+    "bull/explicit/none"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.03
+  },
+  {
+   "action": "trim_to_cash",
+   "cash_after": 0.0392,
+   "funded": null,
+   "level": "B",
+   "source_text": "I've always been bullish on memory with $MU / Samsung / solana:SKHYhSjuRWHgikq8eRKbtBbpABgJSkd7ytQV14i9EQ3 for the 2026-2027 period.  \n\nSame opinion, even after $NVDA call. \n\nAnd I've been fervently defending how high end memory demand is structural + OP for operating income (esp",
+   "source_url": "https://x.com/i/status/2092851118233764178",
+   "state": "減碼",
+   "ticker": "MU",
+   "ts": "2026-08-27T05:46:04.000Z",
+   "votes": [
+    "bull/explicit/trim",
+    "bull/explicit/trim",
+    "bull/explicit/trim"
+   ],
+   "weight_from": 0.0285,
+   "weight_to": 0.0142
+  },
+  {
+   "action": "trim_to_cash",
+   "cash_after": 0.0524,
+   "funded": null,
+   "level": "B",
+   "source_text": "I've always been bullish on memory with $MU / Samsung / solana:SKHYhSjuRWHgikq8eRKbtBbpABgJSkd7ytQV14i9EQ3 for the 2026-2027 period.  \n\nSame opinion, even after $NVDA call. \n\nAnd I've been fervently defending how high end memory demand is structural + OP for operating income (esp",
+   "source_url": "https://x.com/i/status/2092851118233764178",
+   "state": "減碼",
+   "ticker": "SNDK",
+   "ts": "2026-08-27T05:46:04.000Z",
+   "votes": [
+    "bull/explicit/trim",
+    "bull/explicit/trim",
+    "neutral/explicit/trim"
+   ],
+   "weight_from": 0.0264,
+   "weight_to": 0.0132
+  },
+  {
+   "action": "exit_to_cash",
+   "cash_after": 0.0797,
+   "funded": null,
+   "level": "B",
+   "source_text": "It’s been a little disappointing to see a pattern with some people I've interacted with on X:\n\n- try to engage with the same audience, then quickly move toward aggressively monetizing it   \n\n- get upset when I choose not to participate in or amplify paid groups\n\n- throw out perso",
+   "source_url": "https://x.com/i/status/2093947848580858123",
+   "state": "持有",
+   "ticker": "EPA:SOI",
+   "ts": "2026-08-30T06:24:05.000Z",
+   "votes": [
+    "bull/none/none",
+    "bull/none/none",
+    "neutral/none/none"
+   ],
+   "weight_from": 0.0273,
+   "weight_to": 0.0
+  },
+  {
+   "action": "exit_to_cash",
+   "cash_after": 0.1028,
+   "funded": null,
+   "level": "B",
+   "source_text": "It’s been a little disappointing to see a pattern with some people I've interacted with on X:\n\n- try to engage with the same audience, then quickly move toward aggressively monetizing it   \n\n- get upset when I choose not to participate in or amplify paid groups\n\n- throw out perso",
+   "source_url": "https://x.com/i/status/2093947848580858123",
+   "state": "持有",
+   "ticker": "LSE:RPI",
+   "ts": "2026-08-30T06:24:05.000Z",
+   "votes": [
+    "bull/none/none",
+    "bull/none/none",
+    "neutral/none/none"
+   ],
+   "weight_from": 0.023,
+   "weight_to": 0.0
+  },
+  {
+   "action": "exit_to_cash",
+   "cash_after": 0.1223,
+   "funded": null,
+   "level": "B",
+   "source_text": "It’s been a little disappointing to see a pattern with some people I've interacted with on X:\n\n- try to engage with the same audience, then quickly move toward aggressively monetizing it   \n\n- get upset when I choose not to participate in or amplify paid groups\n\n- throw out perso",
+   "source_url": "https://x.com/i/status/2093947848580858123",
+   "state": "建倉",
+   "ticker": "TSEM",
+   "ts": "2026-08-30T06:24:05.000Z",
+   "votes": [
+    "bull/none/none",
+    "bull/none/none",
+    "neutral/none/none"
+   ],
+   "weight_from": 0.0195,
+   "weight_to": 0.0
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.0923,
+   "funded": null,
+   "level": "B",
+   "source_text": "Just some random ideas from Elon’s post:\n\n$AAON - Chillers / liquid cooling\n$NVT - Cooling\n$MOD - Chillers / Cooling\n$IESC - Wiring\n$MTRS - chillers\n$JCI - chillers\n$HPS.A - Transformers (disclosure I own positions in this)\n$PRY.MI - networking/wiring(fiber)\n$CRDO / $AAOI (same) ",
+   "source_url": "https://x.com/i/status/2094027369648681284",
+   "state": "建倉",
+   "ticker": "TSX:HPS.A",
+   "ts": "2026-08-30T11:40:04.000Z",
+   "votes": [
+    "bull/explicit/none",
+    "bull/explicit/none",
+    "neutral/explicit/none"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.03
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.0623,
+   "funded": null,
+   "level": "B",
+   "source_text": "The more I look at ESMT, the more excited I get researching legacy memory themes. \n\nSo looked through H1 sellside models...\n\nFrom March ESMT reports:\nHuanan: DDR3 4Gb ASP +50% QoQ in Q2\nFubon: cited roughly +40% Q2 DRAM pricing\n\nBy August... Huanan was citing ESMT Q2 ASP growth o",
+   "source_url": "https://x.com/i/status/2094083798204047577",
+   "state": "建倉",
+   "ticker": "TPE:3006",
+   "ts": "2026-08-30T15:24:18.000Z",
+   "votes": [
+    "bull/explicit/none",
+    "bull/explicit/none",
+    "bull/explicit/none"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.03
+  },
+  {
+   "action": "exit_to_cash",
+   "cash_after": 0.0826,
+   "funded": null,
+   "level": "B",
+   "source_text": "$TSM Vice President of Advanced Packaging:\n\n\"Foundries can scale up the optical engine, but the real bottlenecks to large scale deployment lie elsewhere...\n\nIncluding lasers, optical fiber, fiber-optic connectors, and test\" (UDN)\n\nJust some bucket ideas: \n\nLasers: $LITE, $SIVE, $",
+   "source_url": "https://x.com/i/status/2094298008955535500",
+   "state": "持有",
+   "ticker": "TPEX:6830",
+   "ts": "2026-08-31T05:35:30.000Z",
+   "votes": [
+    "bull/none/none",
+    "neutral/none/none",
+    "neutral/none/none"
+   ],
+   "weight_from": 0.0203,
+   "weight_to": 0.0
+  },
+  {
+   "action": "add_from_cash",
+   "cash_after": 0.0413,
+   "funded": null,
+   "level": "B",
+   "source_text": "@SidkMena Yeah, I was forced to averaged down during that massive July sector crash.\n\nNow up ~55% on FOCI and ~50% on Xintec at least but some of my other names are still recovering",
+   "source_url": "https://x.com/i/status/2094299767455240222",
+   "state": "加碼",
+   "ticker": "TPEX:3363",
+   "ts": "2026-08-31T05:42:29.000Z",
+   "votes": [
+    "bull/implied/add",
+    "bull/implied/add",
+    "neutral/none/none"
+   ],
+   "weight_from": 0.1653,
+   "weight_to": 0.2066
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.025,
+   "funded": {
+    "from_cash": 0.0163,
+    "pro_rata_trim_of_others": 0.0137
+   },
+   "level": "B",
+   "source_text": "Yes, I added that as a side note. But my theory is $RPI eventually gets the overflow from mac Mini shortages.\n\nSame idea with Openclaw now applied to frontier lab agent RL training.\n\nAnd those sales would be economically meaningful given Raspberry Pi’s size relative to Apple\n\nNo ",
+   "source_url": "https://x.com/i/status/2094315118020759778",
+   "state": "持有",
+   "ticker": "LSE:RPI",
+   "ts": "2026-08-31T06:43:29.000Z",
+   "votes": [
+    "bull/none/none",
+    "bull/none/none",
+    "bull/none/none"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.03
+  },
+  {
+   "action": "add_from_cash",
+   "cash_after": 0.0,
+   "funded": null,
+   "level": "B",
+   "source_text": "Yeah, I think a lot of the valuation reset has already happened.\n\nI'm sure for most ppl, seeing a drawdown without much conviction is daunting.\n\nBut periods of fear/forced selling are typically the best opportunities as well (eg. I avged down on Foci after drop, and now my curren",
+   "source_url": "https://x.com/i/status/2094495687899848818",
+   "state": "加碼",
+   "ticker": "TPEX:3363",
+   "ts": "2026-08-31T18:41:00.000Z",
+   "votes": [
+    "bull/explicit/add",
+    "bull/explicit/add",
+    "bull/explicit/add"
+   ],
+   "weight_from": 0.2036,
+   "weight_to": 0.2286
+  },
+  {
+   "action": "exit_to_cash",
+   "cash_after": 0.0254,
+   "funded": null,
+   "level": "B",
+   "source_text": "$IQE is actually a quantum dot foundry leader believe it or not.\n\nToday IQE announced a purchase agreement with Quintessent (top player in the QD space).\n\n“As quantum dot lasers move to customer sampling.”\n\nYour QD bros like $ALMU, QD Laser (6613), and others might finally start ",
+   "source_url": "https://x.com/i/status/2095460499769155944",
+   "state": "持有",
+   "ticker": "EPA:ALRIB",
+   "ts": "2026-09-03T10:34:49.000Z",
+   "votes": [
+    "bull/none/none",
+    "bull/none/none",
+    "neutral/none/none"
+   ],
+   "weight_from": 0.0254,
+   "weight_to": 0.0
+  },
+  {
+   "action": "exit_to_cash",
+   "cash_after": 0.0394,
+   "funded": null,
+   "level": "B",
+   "source_text": "Just an update to my DDR2/DDR3 memory idea with ESMT.  They reported August revenue (Taiwan sometimes does monthly reporting): \n\nJune revenue: ~$153M\nJuly: ~$214M\nAugust (new): ~$249M vs. $35.3m (last year)\n\nMonthly revenue has increased ~63% in two months despite reportedly simi",
+   "source_url": "https://x.com/i/status/2095580088620449880",
+   "state": "減碼",
+   "ticker": "MU",
+   "ts": "2026-09-03T18:30:01.000Z",
+   "votes": [
+    "neutral/none/none",
+    "neutral/none/none",
+    "neutral/none/none"
+   ],
+   "weight_from": 0.014,
+   "weight_to": 0.0
+  },
+  {
+   "action": "exit_to_cash",
+   "cash_after": 0.0524,
+   "funded": null,
+   "level": "B",
+   "source_text": "Just an update to my DDR2/DDR3 memory idea with ESMT.  They reported August revenue (Taiwan sometimes does monthly reporting): \n\nJune revenue: ~$153M\nJuly: ~$214M\nAugust (new): ~$249M vs. $35.3m (last year)\n\nMonthly revenue has increased ~63% in two months despite reportedly simi",
+   "source_url": "https://x.com/i/status/2095580088620449880",
+   "state": "減碼",
+   "ticker": "SNDK",
+   "ts": "2026-09-03T18:30:01.000Z",
+   "votes": [
+    "neutral/none/none",
+    "neutral/none/none",
+    "neutral/none/none"
+   ],
+   "weight_from": 0.013,
+   "weight_to": 0.0
+  },
+  {
+   "action": "exit_to_cash",
+   "cash_after": 0.082,
+   "funded": null,
+   "level": "B",
+   "source_text": "Got curious and decided to track which thesis of mine were still up 100%+ YTD after the recent drawdown: \n\n1. $AXTI - InP substrates\n2. $NBIS - Neoclouds\n3. $MU - Memory\n4. $INTC - Foundry\n5. $LITE - Photonics\n6. $IQE - Epiwafers\n7. $AAOI - Photonics\n8. $GDRZF - Venezuela\n9. $AEH",
+   "source_url": "https://x.com/i/status/2096814311306129776",
+   "state": "建倉",
+   "ticker": "TSX:HPS.A",
+   "ts": "2026-09-07T04:14:23.000Z",
+   "votes": [
+    "neutral/none/none",
+    "neutral/none/none",
+    "neutral/none/none"
+   ],
+   "weight_from": 0.0296,
+   "weight_to": 0.0
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.052,
+   "funded": null,
+   "level": "B",
+   "source_text": "Yep, I'm personally high conviction on the AI trade (especially photonics/memory) despite macro.\n\n- $NVDA gave forecasts for $1.3T hyperscaler capex ($100B+ above BofA analyst expectations)\n\n- $SPCX Wells Fargo forecasts are ~$263B for 2027.\n\n- $127B spend in 2027 for Anthropic/O",
+   "source_url": "https://x.com/i/status/2098306366167535766",
+   "state": "減碼",
+   "ticker": "MU",
+   "ts": "2026-09-11T07:03:16.000Z",
+   "votes": [
+    "bull/none/none",
+    "bull/none/none",
+    "neutral/none/none"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.03
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.025,
+   "funded": {
+    "from_cash": 0.027,
+    "pro_rata_trim_of_others": 0.003
+   },
+   "level": "B",
+   "source_text": "I've seen comments from Jim Cramer today supporting hedge funds that short Leopold's \"nonsense\" $SNDK / $DRAM / SK Hynix type calls.  \n\nAs well Cramer calling $CRWD a \"Must Buy\".   \n\nI'm not sure if Jim Cramer sees a $241B company  labelled \"Cybersecurity\" and thinks of it as saf",
+   "source_url": "https://x.com/i/status/2099659874892386678",
+   "state": "減碼",
+   "ticker": "SNDK",
+   "ts": "2026-09-15T00:41:38.000Z",
+   "votes": [
+    "bull/none/none",
+    "bull/none/none",
+    "bull/none/none"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.03
+  },
+  {
+   "action": "add_from_cash",
+   "cash_after": 0.0185,
+   "funded": null,
+   "level": "B",
+   "source_text": "@UjenA93UTP63896 $CCXI looks like it's going public Q4 2026. And my hope is that it sort of looks like $OKLO if they generate enough excitement. \n\nWatched the investor presentation the other day, just waiting for the public listing anytime soon (I personally added some the other ",
+   "source_url": "https://x.com/i/status/2108111907819499646",
+   "state": "加碼",
+   "ticker": "CCXI",
+   "ts": "2026-10-08T08:27:00.000Z",
+   "votes": [
+    "bull/explicit/add",
+    "bull/explicit/add",
+    "bull/explicit/add"
+   ],
+   "weight_from": 0.0259,
+   "weight_to": 0.0324
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.0185,
+   "funded": {
+    "from_cash": 0.0,
+    "pro_rata_trim_of_others": 0.03
+   },
+   "level": "B",
+   "source_text": "I think we've reached extreme market dislocation territory. \n\n$POET as one example traded close to -$98M under their net cash on Thursday, giving a very negative value to their actual business. \n\nBut even if hyperscaler capex gets reduced, I'd argue demand visibility on some bott",
+   "source_url": "https://x.com/i/status/2119031172705771860",
+   "state": "加碼",
+   "ticker": "POET",
+   "ts": "2026-11-07T11:36:15.000Z",
+   "votes": [
+    "bull/none/none",
+    "bull/none/none",
+    "bull/none/none"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.03
+  },
+  {
+   "action": "trim_to_cash",
+   "cash_after": 0.1243,
+   "funded": null,
+   "level": "B",
+   "source_text": "My cost averages are a lot different. My memory longs were once up +450%, but many are probably down to +50-100% unrealized. I still hold those. \n\nJust tax lost harvesting a bit of my $AAOI position over time was a few million realized losses (I'm still long, this is just tax rel",
+   "source_url": "https://x.com/i/status/2119043029369762209",
+   "state": "減碼",
+   "ticker": "AAOI",
+   "ts": "2026-11-07T12:23:22.000Z",
+   "votes": [
+    "bull/explicit/trim",
+    "bull/explicit/trim",
+    "bull/explicit/trim"
+   ],
+   "weight_from": 0.2116,
+   "weight_to": 0.1058
+  },
+  {
+   "action": "buy_from_cash",
+   "cash_after": 0.0943,
+   "funded": null,
+   "level": "B",
+   "source_text": "I'm going to give a contrarian take on Neoclouds like $NBIS and say the theme looks compelling after the valuation crash. \n\nSince there's a reason why Elon's $SPCX is heavily focused on this market full of \"guppies\" that would die: \n\nHe sees how attractive the economics are after",
+   "source_url": "https://x.com/i/status/2119077473107472729",
+   "state": "建倉",
+   "ticker": "IREN",
+   "ts": "2026-11-07T14:40:14.000Z",
+   "votes": [
+    "bull/none/none",
+    "bull/none/none",
+    "neutral/none/none"
+   ],
+   "weight_from": 0.0,
+   "weight_to": 0.03
+  },
+  {
+   "action": "rebalance_to_target",
+   "cash": 0.0766,
+   "ts": "2026-11-09T15:00:00+00:00",
+   "weights": {
+    "AAOI": 0.1026,
+    "AXTI": 0.0678,
+    "CCXI": 0.0463,
+    "EPA:XFAB": 0.0434,
+    "EWY": 0.03,
+    "IREN": 0.03,
+    "KRX:000660": 0.0386,
+    "KRX:005930": 0.0395,
+    "LITE": 0.0377,
+    "MU": 0.03,
+    "NBIS": 0.0606,
+    "POET": 0.03,
+    "STO:SIVE": 0.257,
+    "TPE:3006": 0.049,
+    "TPEX:3363": 0.0608
+   }
+  }
+ ],
+ "watchlist": [
+  {
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 30,
+   "reason": "beyond max_names",
+   "state": "減碼",
+   "ticker": "COHR"
+  },
+  {
+   "level": "C",
+   "n_bear": 0,
+   "n_bull": 30,
+   "reason": "beyond max_names",
+   "state": "未知",
+   "ticker": "NVDA"
+  },
+  {
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 28,
+   "reason": "beyond max_names",
+   "state": "減碼",
+   "ticker": "SNDK"
+  },
+  {
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 24,
+   "reason": "beyond max_names",
+   "state": "未知",
+   "ticker": "MRVL"
+  },
+  {
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 19,
+   "reason": "beyond max_names",
+   "state": "持有",
+   "ticker": "EPA:SOI"
+  },
+  {
+   "level": "C",
+   "n_bear": 0,
+   "n_bull": 16,
+   "reason": "beyond max_names",
+   "state": "未知",
+   "ticker": "INTC"
+  },
+  {
+   "level": "C",
+   "n_bear": 0,
+   "n_bull": 16,
+   "reason": "beyond max_names",
+   "state": "未知",
+   "ticker": "META"
+  },
+  {
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 15,
+   "reason": "beyond max_names",
+   "state": "持有",
+   "ticker": "LSE:IQE"
+  },
+  {
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 13,
+   "reason": "beyond max_names",
+   "state": "持有",
+   "ticker": "LSE:RPI"
+  },
+  {
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 12,
+   "reason": "beyond max_names",
+   "state": "持有",
+   "ticker": "AEHR"
+  },
+  {
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 12,
+   "reason": "beyond max_names",
+   "state": "持有",
+   "ticker": "TPE:6451"
+  },
+  {
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 12,
+   "reason": "beyond max_names",
+   "state": "建倉",
+   "ticker": "TSEM"
+  },
+  {
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 11,
+   "reason": "beyond max_names",
+   "state": "建倉",
+   "ticker": "ARM"
+  },
+  {
+   "level": "C",
+   "n_bear": 1,
+   "n_bull": 11,
+   "reason": "beyond max_names",
+   "state": "未知",
+   "ticker": "GOOGL"
+  },
+  {
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 10,
+   "reason": "beyond max_names",
+   "state": "加碼",
+   "ticker": "ETR:LPK"
+  },
+  {
+   "level": "C",
+   "n_bear": 0,
+   "n_bull": 10,
+   "reason": "beyond max_names",
+   "state": "未知",
+   "ticker": "JBL"
+  },
+  {
+   "level": "C",
+   "n_bear": 0,
+   "n_bull": 9,
+   "reason": "beyond max_names",
+   "state": "未知",
+   "ticker": "MTSI"
+  },
+  {
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 9,
+   "reason": "beyond max_names",
+   "state": "持有",
+   "ticker": "RKLB"
+  },
+  {
+   "level": "C",
+   "n_bear": 0,
+   "n_bull": 9,
+   "reason": "beyond max_names",
+   "state": "未知",
+   "ticker": "SSE:688017"
+  },
+  {
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 9,
+   "reason": "beyond max_names",
+   "state": "減碼",
+   "ticker": "TPE:2344"
+  },
+  {
+   "level": "C",
+   "n_bear": 0,
+   "n_bull": 9,
+   "reason": "beyond max_names",
+   "state": "未知",
+   "ticker": "TSM"
+  },
+  {
+   "level": "C",
+   "n_bear": 2,
+   "n_bull": 8,
+   "reason": "beyond max_names",
+   "state": "未知",
+   "ticker": "AVGO"
+  },
+  {
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 8,
+   "reason": "beyond max_names",
+   "state": "持有",
+   "ticker": "EPA:ALRIB"
+  },
+  {
+   "level": "C",
+   "n_bear": 0,
+   "n_bull": 7,
+   "reason": "beyond max_names",
+   "state": "未知",
+   "ticker": "AMD"
+  },
+  {
+   "level": "C",
+   "n_bear": 1,
+   "n_bull": 6,
+   "reason": "beyond max_names",
+   "state": "未知",
+   "ticker": "RDDT"
+  },
+  {
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 6,
+   "reason": "beyond max_names",
+   "state": "持有",
+   "ticker": "SLOIF"
+  },
+  {
+   "level": "C",
+   "n_bear": 0,
+   "n_bull": 6,
+   "reason": "beyond max_names",
+   "state": "未知",
+   "ticker": "SLOIY"
+  },
+  {
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 6,
+   "reason": "beyond max_names",
+   "state": "建倉",
+   "ticker": "TSX:HPS.A"
+  },
+  {
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 5,
+   "reason": "private company (not investable)",
+   "state": "持有",
+   "ticker": "PRIVATE:AGILITYROBOTICS"
+  },
+  {
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 5,
+   "reason": "beyond max_names",
+   "state": "減碼",
+   "ticker": "SIMO"
+  },
+  {
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 5,
+   "reason": "beyond max_names",
+   "state": "減碼",
+   "ticker": "TPE:2408"
+  },
+  {
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 5,
+   "reason": "beyond max_names",
+   "state": "持有",
+   "ticker": "TPEX:8147"
+  },
+  {
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 4,
+   "reason": "beyond max_names",
+   "state": "加碼",
+   "ticker": "AMKR"
+  },
+  {
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 4,
+   "reason": "beyond max_names",
+   "state": "加碼",
+   "ticker": "SMCI"
+  },
+  {
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 4,
+   "reason": "beyond max_names",
+   "state": "減碼",
+   "ticker": "TPE:2337"
+  },
+  {
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 4,
+   "reason": "beyond max_names",
+   "state": "持有",
+   "ticker": "TPE:3037"
+  },
+  {
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 4,
+   "reason": "beyond max_names",
+   "state": "持有",
+   "ticker": "TPE:3661"
+  },
+  {
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 4,
+   "reason": "beyond max_names",
+   "state": "持有",
+   "ticker": "TPEX:3105"
+  },
+  {
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 4,
+   "reason": "beyond max_names",
+   "state": "加碼",
+   "ticker": "TPEX:3374"
+  },
+  {
+   "level": "B",
+   "n_bear": 0,
+   "n_bull": 4,
+   "reason": "beyond max_names",
+   "state": "建倉",
+   "ticker": "TPEX:5351"
+  }
+ ]
+}

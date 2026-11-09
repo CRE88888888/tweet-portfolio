@@ -1,0 +1,417 @@
+{
+ "BillAckman": {
+  "cash": 0.1103,
+  "coverage": {
+   "posts_by_type": {
+    "original": 129,
+    "quote": 402,
+    "reply": 29
+   },
+   "posts_in_window": 560,
+   "posts_missing_labels": 0,
+   "signals_counted": 193,
+   "signals_discarded_kind": 11,
+   "signals_low_confidence": 0,
+   "signals_total": 204,
+   "signals_unanimous_share": 0.8137,
+   "window_end": "2026-03-31T23:59:59+00:00",
+   "window_start": "2025-10-02T23:59:59+00:00"
+  },
+  "metrics": {
+   "false_positive": [
+    [
+     "FMCC",
+     39.33,
+     "OTC pink (not on SEC 13(f) list)"
+    ],
+    [
+     "FNMA",
+     39.33,
+     "OTC pink (not on SEC 13(f) list)"
+    ],
+    [
+     "HLT",
+     6.1,
+     "not in 13F"
+    ],
+    [
+     "TSLA",
+     3.37,
+     "not in 13F"
+    ]
+   ],
+   "mae_top10_pp": 8.81,
+   "missed_big": [
+    [
+     "BN",
+     17.62
+    ],
+    [
+     "AMZN",
+     17.39
+    ],
+    [
+     "MSFT",
+     15.26
+    ],
+    [
+     "QSR",
+     12.2
+    ],
+    [
+     "META",
+     11.1
+    ],
+    [
+     "SEG",
+     0.79
+    ],
+    [
+     "GOOGL",
+     0.72
+    ],
+    [
+     "HTZ",
+     0.51
+    ]
+   ],
+   "n_13f_positions": 10,
+   "n_pred": 6,
+   "precision_13f_eligible": 0.5,
+   "precision_any13f": 0.333,
+   "recall_top10": 0.2,
+   "spearman_union": -0.574,
+   "top10_13f": [
+    [
+     "BN",
+     17.62,
+     0
+    ],
+    [
+     "AMZN",
+     17.39,
+     0
+    ],
+    [
+     "UBER",
+     15.71,
+     5.52
+    ],
+    [
+     "MSFT",
+     15.26,
+     0
+    ],
+    [
+     "QSR",
+     12.2,
+     0
+    ],
+    [
+     "META",
+     11.1,
+     0
+    ],
+    [
+     "HHH",
+     8.7,
+     6.34
+    ],
+    [
+     "SEG",
+     0.79,
+     0
+    ],
+    [
+     "GOOGL",
+     0.72,
+     0
+    ],
+    [
+     "HTZ",
+     0.51,
+     0
+    ]
+   ],
+   "weight_covered": 0.2441
+  },
+  "metrics_ex_etf": null,
+  "pred": {
+   "FMCC": [
+    0.35,
+    "B"
+   ],
+   "FNMA": [
+    0.35,
+    "B"
+   ],
+   "HHH": [
+    0.0564,
+    "B"
+   ],
+   "HLT": [
+    0.0543,
+    "B"
+   ],
+   "TSLA": [
+    0.03,
+    "C"
+   ],
+   "UBER": [
+    0.0491,
+    "C"
+   ]
+  }
+ },
+ "GerberKawasaki": {
+  "cash": 0.0818,
+  "coverage": {
+   "posts_by_type": {
+    "original": 480,
+    "quote": 225,
+    "reply": 37
+   },
+   "posts_in_window": 742,
+   "posts_missing_labels": 0,
+   "signals_counted": 479,
+   "signals_discarded_kind": 36,
+   "signals_low_confidence": 0,
+   "signals_total": 515,
+   "signals_unanimous_share": 0.6252,
+   "window_end": "2026-09-30T23:59:59+00:00",
+   "window_start": "2026-04-03T23:59:59+00:00"
+  },
+  "metrics": {
+   "false_positive": [
+    [
+     "GLAS",
+     3.27,
+     "not in 13F"
+    ]
+   ],
+   "mae_top10_pp": 9.09,
+   "missed_big": [
+    [
+     "QQQM",
+     8.2
+    ],
+    [
+     "SPYG",
+     5.87
+    ],
+    [
+     "SPYV",
+     4.39
+    ],
+    [
+     "IXUS",
+     4.29
+    ],
+    [
+     "AAPL",
+     3.81
+    ],
+    [
+     "AGG",
+     3.49
+    ],
+    [
+     "NAME:SELECT SECTOR SPDR TR",
+     3.39
+    ],
+    [
+     "XLK",
+     3.36
+    ]
+   ],
+   "n_13f_positions": 344,
+   "n_pred": 9,
+   "precision_13f_eligible": 0.889,
+   "precision_any13f": 0.889,
+   "recall_top10": 0.2,
+   "spearman_union": -0.478,
+   "top10_13f": [
+    [
+     "QQQM",
+     8.2,
+     0
+    ],
+    [
+     "SPYG",
+     5.87,
+     0
+    ],
+    [
+     "NVDA",
+     4.89,
+     38.12
+    ],
+    [
+     "SPYV",
+     4.39,
+     0
+    ],
+    [
+     "IXUS",
+     4.29,
+     0
+    ],
+    [
+     "AAPL",
+     3.81,
+     0
+    ],
+    [
+     "AGG",
+     3.49,
+     0
+    ],
+    [
+     "NAME:SELECT SECTOR SPDR TR",
+     3.39,
+     0
+    ],
+    [
+     "XLK",
+     3.36,
+     0
+    ],
+    [
+     "GOOGL",
+     3.0,
+     23.86
+    ]
+   ],
+   "weight_covered": 0.1281
+  },
+  "metrics_ex_etf": {
+   "false_positive": [
+    [
+     "GLAS",
+     3.27,
+     "not in 13F"
+    ]
+   ],
+   "mae_top10_pp": 8.22,
+   "missed_big": [
+    [
+     "AAPL",
+     13.62
+    ],
+    [
+     "TSLA",
+     9.25
+    ],
+    [
+     "AMZN",
+     4.9
+    ],
+    [
+     "META",
+     3.87
+    ],
+    [
+     "AXON",
+     2.17
+    ]
+   ],
+   "n_13f_positions": 88,
+   "n_pred": 9,
+   "precision_13f_eligible": 0.889,
+   "precision_any13f": 0.889,
+   "recall_top10": 0.5,
+   "spearman_union": 0.154,
+   "top10_13f": [
+    [
+     "NVDA",
+     17.47,
+     38.12
+    ],
+    [
+     "AAPL",
+     13.62,
+     0
+    ],
+    [
+     "GOOGL",
+     10.72,
+     23.86
+    ],
+    [
+     "TSLA",
+     9.25,
+     0
+    ],
+    [
+     "MSFT",
+     7.5,
+     5.42
+    ],
+    [
+     "AMZN",
+     4.9,
+     0
+    ],
+    [
+     "MU",
+     4.34,
+     16.26
+    ],
+    [
+     "META",
+     3.87,
+     0
+    ],
+    [
+     "NFLX",
+     2.67,
+     3.27
+    ],
+    [
+     "AXON",
+     2.17,
+     0
+    ]
+   ],
+   "weight_covered": 0.4575
+  },
+  "pred": {
+   "AVGO": [
+    0.03,
+    "B"
+   ],
+   "DIS": [
+    0.03,
+    "C"
+   ],
+   "GLASF": [
+    0.03,
+    "C"
+   ],
+   "GOOGL": [
+    0.2191,
+    "B"
+   ],
+   "MSFT": [
+    0.0498,
+    "B"
+   ],
+   "MU": [
+    0.1493,
+    "B"
+   ],
+   "NFLX": [
+    0.03,
+    "C"
+   ],
+   "NVDA": [
+    0.35,
+    "B"
+   ],
+   "TT": [
+    0.03,
+    "B"
+   ]
+  }
+ }
+}
