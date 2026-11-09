@@ -1,0 +1,9 @@
+{
+ "factor_weights": {"mentions_decayed": 0.30, "explicit_or_add": 0.20, "defends": 0.20, "size_points": 0.15, "level": 0.15},
+ "size_points": {"max": 3.0, "large": 2.0, "normal": 0.5, "small": -1.0, "none": 0.0},
+ "level_points": {"A": 1.0, "B": 0.75, "C": 0.4, "D": 0.0},
+ "k": 3.0,
+ "trim_discount": 0.8,
+ "filing_factor_weight": 0.5,
+ "perturb": 0.2
+}

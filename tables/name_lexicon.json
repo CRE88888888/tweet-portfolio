@@ -1,0 +1,9 @@
+{
+ "_note": "Fast-mode prefilter only (never used to judge). A post is kept if it has a $cashtag, a ticker the account has cashtagged anywhere, an alias key, or one of these names (case-insensitive, word-bounded for Latin script). Extend freely.",
+ "words": ["stock","stocks","shares","position","portfolio","long","short","bought","sold","buy","sell","trim","trimmed","added","holding","holdings","stake","calls","puts","options","etf","ipo","earnings",
+  "nvidia","apple","microsoft","google","alphabet","amazon","meta","facebook","tesla","netflix","broadcom","amd","intel","micron","oracle","palantir","coinbase","microstrategy","strategy inc","robinhood","spacex","starlink","openai","anthropic","xai","berkshire","jpmorgan","goldman","nasdaq","s&p","spx","qqq","spy","nikkei","hang seng","kospi","taiex",
+  "tsmc","samsung","sk hynix","hynix","asml","arm","qualcomm","marvell","coherent","lumentum","sandisk","western digital","seagate","supermicro","coreweave","nebius","iren","cerebras","alibaba","tencent","baidu","jd","pdd","xiaomi","byd","meituan","mediatek","foxconn","hon hai","sony","toyota","softbank","lvmh","hermes","novo","lilly","unitedhealth","fannie","freddie","lululemon","molina","disney","nike","uber","hilton","howard hughes","brookfield",
+  "bitcoin","btc","ethereum","eth","solana","sol","sui","hype","hyperliquid","xrp","doge","bnb","zcash","zec","pump","ena","ethena","uni","near","aave","link","chainlink","tao","bittensor","memecoin","altcoin","alts","stablecoin","usdt","usdc","gold","silver","oil","copper","uranium","treasury","treasuries","bonds","tlt","dxy","yen","cds",
+  "股票","個股","美股","台股","港股","a股","持倉","持股","倉位","部位","加倉","加碼","減倉","減碼","清倉","買入","買了","賣出","賣了","建倉","抄底","做多","做空","空單","期權","財報",
+  "台積電","輝達","英偉達","蘋果","微軟","谷歌","亞馬遜","特斯拉","博通","美光","英特爾","甲骨文","阿里","騰訊","百度","京東","拼多多","小米","比亞迪","美團","聯發科","鴻海","三星","海力士","軟銀","茅台","比特幣","以太坊","以太","狗狗幣","黃金","白銀","原油","美債","日圓"]
+}

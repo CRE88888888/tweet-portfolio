@@ -1,0 +1,5 @@
+{"fetch_mode": "originals+quotes full (cached archive, 2026); replies via ticker/position keyword search only",
+ "reply_coverage": "keyword-only (earlier cached run estimated ~58% of all 2026 posts read; originals 100%)",
+ "reads_used_this_run": 4,
+ "long_posts": "251 posts of 230-300 chars re-fetched by id (122 expanded to full text); posts >=900 chars already had note_tweet",
+ "notes": "latest post fetched: 2026-11-09 15:12 (Asia/Taipei)"}
